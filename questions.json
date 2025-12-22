@@ -428,7 +428,7 @@
       ]
     },
     {
-      "id": "24356-recordsheet",
+      "id": "24356-recordsheet - Porject 1",
       "title": "Assessment Record Sheet – Workshop processes",
       "subtitle": "Record the workshop processes you used for your project",
       "usNumber": "US 24356",
@@ -436,21 +436,6 @@
       "credits": 8,
       "standardType": "internal",
       "questions": [
-        {
-          "id": "rs_student_name",
-          "text": "Student name",
-          "image": "blank.jpg",
-          "hint": "Enter your full name.",
-          "type": "short",
-          "maxPoints": 1,
-          "rubric": [
-            {
-              "points": 1,
-              "check": ".+",
-              "flags": ""
-            }
-          ]
-        },
         {
           "id": "rs_project_name",
           "text": "Project: What is your project called?",
@@ -462,7 +447,399 @@
             {
               "points": 1,
               "check": ".+",
-              "flags": ""
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_materials_used",
+          "text": "Materials: What materials were used in this project? (Timber + at least 3 other materials.)",
+          "image": "blank.jpg",
+          "hint": "List materials and products (e.g., timber, MDF/ply, metal, plastic, screws, glue, varnish, fabric).",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(timber|wood|pine|rimu|plywood|ply|mdf)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(mdf|plywood|ply|particle\\s*board|hardboard|laminate)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(metal|steel|aluminium|aluminum|brass)\\b|\\b(plastic|acrylic|pvc|polycarbonate)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(screw|nail|bolt|hinge|fastener)\\b|\\b(glue|adhesive|pva|epoxy)\\b|\\b(varnish|oil|paint|stain|wax|finish)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_mark_out",
+          "text": "Mark out: What had to be marked out? What tools were used?",
+          "image": "blank.jpg",
+          "hint": "Mention measurements and tools (rule/tape, try square, combination square, marking gauge, pencil/knife).",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(measure|measurement|mm|mark\\s*out|marking\\s*out|layout)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(steel\\s*rule|tape|try\\s*square|combination\\s*square|marking\\s*gauge|mortise\\s*gauge|pencil|marking\\s*knife)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(line|angle|square|90|45|centre|center)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_cut_shape",
+          "text": "Cut/shape: What had to be cut, what had to be shaped, what tools did you use?",
+          "image": "blank.jpg",
+          "hint": "Include the parts you cut/shape and the tools (saws, chisels, planes, files, sanders).",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(cut|saw|trim)\\b.*\\b(timber|wood|mdf|ply|metal|plastic)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(panel\\s*saw|cross\\s*cut|dovetail\\s*saw|hack\\s*saw|coping\\s*saw)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(shape|shaping|chisel|plane|rasp|file|spokeshave)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(sand|sanding|sandpaper|sander)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_joints_jointing",
+          "text": "Joints/jointing: What joints were used in your project? What tools and materials did you need?",
+          "image": "blank.jpg",
+          "hint": "Name joints, and mention tools/materials like glue, clamps, drill + screws, dowels.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(butt|rebate|housing|halving|lap|mitre|miter|mortise|tenon|dowel|dovetail)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(glue|adhesive|pva|epoxy)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(clamp|cramp|vice|vise)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(drill|pilot\\s*hole|screw|nail|bolt)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_assemble",
+          "text": "Assemble: What assembling was required? How did you do it?",
+          "image": "blank.jpg",
+          "hint": "Explain the order: dry fit, glue, clamp, fixings, check square, clean-up.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(assemble|assembly|put\\s*together|join)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(dry\\s*fit|test\\s*fit|glue|clamp|screw|nail)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(check\\b.*\\b(square|90)\\b|wipe\\s*off|clean\\s*up|remove\\s*excess\\s*glue)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_finishes",
+          "text": "Finishes: What finishes/finishing were in this project? How did you do them?",
+          "image": "blank.jpg",
+          "hint": "Include surface prep, finish type, number of coats, and application method.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(sand|sanding|prep|clean|dust)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(varnish|oil|polyurethane|paint|stain|wax|shellac|lacquer)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(brush|roller|spray|rag|wipe)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(coat|coats|dry|cure|between\\s*coats)\\b",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24356-recordsheet_Project 2",
+      "title": "Assessment Record Sheet – Workshop processes",
+      "subtitle": "Record the workshop processes you used for your project",
+      "usNumber": "US 24356",
+      "usVersion": "(v3)",
+      "credits": 8,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "rs_project_name",
+          "text": "Project: What is your project called?",
+          "image": "blank.jpg",
+          "hint": "Use the name your teacher uses (e.g., coffee table, toolbox, stool).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": ".+",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_materials_used",
+          "text": "Materials: What materials were used in this project? (Timber + at least 3 other materials.)",
+          "image": "blank.jpg",
+          "hint": "List materials and products (e.g., timber, MDF/ply, metal, plastic, screws, glue, varnish, fabric).",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(timber|wood|pine|rimu|plywood|ply|mdf)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(mdf|plywood|ply|particle\\s*board|hardboard|laminate)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(metal|steel|aluminium|aluminum|brass)\\b|\\b(plastic|acrylic|pvc|polycarbonate)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(screw|nail|bolt|hinge|fastener)\\b|\\b(glue|adhesive|pva|epoxy)\\b|\\b(varnish|oil|paint|stain|wax|finish)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_mark_out",
+          "text": "Mark out: What had to be marked out? What tools were used?",
+          "image": "blank.jpg",
+          "hint": "Mention measurements and tools (rule/tape, try square, combination square, marking gauge, pencil/knife).",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(measure|measurement|mm|mark\\s*out|marking\\s*out|layout)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(steel\\s*rule|tape|try\\s*square|combination\\s*square|marking\\s*gauge|mortise\\s*gauge|pencil|marking\\s*knife)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(line|angle|square|90|45|centre|center)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_cut_shape",
+          "text": "Cut/shape: What had to be cut, what had to be shaped, what tools did you use?",
+          "image": "blank.jpg",
+          "hint": "Include the parts you cut/shape and the tools (saws, chisels, planes, files, sanders).",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(cut|saw|trim)\\b.*\\b(timber|wood|mdf|ply|metal|plastic)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(panel\\s*saw|cross\\s*cut|dovetail\\s*saw|hack\\s*saw|coping\\s*saw)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(shape|shaping|chisel|plane|rasp|file|spokeshave)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(sand|sanding|sandpaper|sander)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_joints_jointing",
+          "text": "Joints/jointing: What joints were used in your project? What tools and materials did you need?",
+          "image": "blank.jpg",
+          "hint": "Name joints, and mention tools/materials like glue, clamps, drill + screws, dowels.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(butt|rebate|housing|halving|lap|mitre|miter|mortise|tenon|dowel|dovetail)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(glue|adhesive|pva|epoxy)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(clamp|cramp|vice|vise)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(drill|pilot\\s*hole|screw|nail|bolt)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_assemble",
+          "text": "Assemble: What assembling was required? How did you do it?",
+          "image": "blank.jpg",
+          "hint": "Explain the order: dry fit, glue, clamp, fixings, check square, clean-up.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(assemble|assembly|put\\s*together|join)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(dry\\s*fit|test\\s*fit|glue|clamp|screw|nail)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(check\\b.*\\b(square|90)\\b|wipe\\s*off|clean\\s*up|remove\\s*excess\\s*glue)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_finishes",
+          "text": "Finishes: What finishes/finishing were in this project? How did you do them?",
+          "image": "blank.jpg",
+          "hint": "Include surface prep, finish type, number of coats, and application method.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(sand|sanding|prep|clean|dust)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(varnish|oil|polyurethane|paint|stain|wax|shellac|lacquer)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(brush|roller|spray|rag|wipe)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(coat|coats|dry|cure|between\\s*coats)\\b",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24356-recordsheet_Project 3",
+      "title": "Assessment Record Sheet – Workshop processes",
+      "subtitle": "Record the workshop processes you used for your project",
+      "usNumber": "US 24356",
+      "usVersion": "(v3)",
+      "credits": 8,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "rs_project_name",
+          "text": "Project: What is your project called?",
+          "image": "blank.jpg",
+          "hint": "Use the name your teacher uses (e.g., coffee table, toolbox, stool).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": ".+",
+              "flags": "i"
             }
           ]
         },
