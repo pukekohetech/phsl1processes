@@ -43,8 +43,8 @@ function initStorage(appId, version = "noversion") {
   }
 
   // OPTIONAL cleanup (⚠️ see warning below)
-  // cleanupOldVersionsKeepLatest(appId, 3, STORAGE_KEY);
-  // cleanupOldVersionsDeleteAll(appId, STORAGE_KEY);
+  
+   cleanupOldVersionsDeleteAll(appId, STORAGE_KEY);
 }
 
 
