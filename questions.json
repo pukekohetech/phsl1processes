@@ -123,7 +123,7 @@
           "hint": "Think: checking and marking 90°/square lines.",
           "type": "short",
           "maxPoints": 1,
-          "rubric": [{ "points": 1, "check": "\\b(90|right\\s*angle|square)\\b.*\\b(mark|check|test)\\b|\\b(mark|check|test)\\b.*\\b(90|right\\s*angle|square)\\b", "flags": "i" }]
+          "rubric": [{ "points": 1, "check": "\\b(90\\s*(degree|degrees|°)?|right\\s*angle(s)?|square|squareness)\\b.*\\b(mark(s|ed|ing)?|check(s|ed|ing)?|test(s|ed|ing)?|set\\s*out|draw(s|ing)?)\\b|\\b(mark(s|ed|ing)?|check(s|ed|ing)?|test(s|ed|ing)?|set\\s*out|draw(s|ing)?)\\b.*\\b(90\\s*(degree|degrees|°)?|right\\s*angle(s)?|square|squareness)\\b", "flags": "i" }]
         },
         {
           "id": "q6b_combination_square_use",
