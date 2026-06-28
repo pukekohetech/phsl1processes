@@ -114,10 +114,22 @@
           "type": "long",
           "maxPoints": 3,
           "rubric": [
-            { "points": 1, "check": "\\b(smooth|finish|remove\\s*rough|fine\\s*shavings)\\b.*\\b(surface|timber|wood)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(straighten|true|flatten|level)\\b.*\\b(edge|face|timber|wood)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(reduce|bring\\s*down|plane\\s*to)\\b.*\\b(width|size|dimension|thickness)\\b", "flags": "i" }
-          ]
+    {
+      "points": 1,
+      "check": "\\b(smooth|smoothing|finish|finishing|remove\\s*rough(?:ness)?|fine\\s*shavings?|clean\\s*up|final\\s*finish)\\b.{0,50}\\b(surface|surfaces|timber|wood|face)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(straighten|straightening|true|flatten|flattening|level|levelling|joint)\\b.{0,50}\\b(edge|edges|face|faces|surface|surfaces|timber|wood)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(reduce|bringing?\\s+.*?down|bring\\s+.*?down|plane\\s+to|size|trim)\\b.{0,50}\\b(size|final\\s*size|dimension|dimensions|thickness|width|height)\\b",
+      "flags": "i"
+    }
+  ]
         },
         {
           "id": "q5_protect_plane_blade",
