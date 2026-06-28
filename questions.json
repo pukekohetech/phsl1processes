@@ -56,12 +56,28 @@
           "hint": "Explain: set the distance, lock it, keep the stock against the edge, run the spur along with steady pressure, then store it safely.",
           "type": "long",
           "maxPoints": 4,
-          "rubric": [
-            { "points": 1, "check": "\\b(set|adjust)\\b.*\\b(distance|measurement|mm)\\b|\\bstock\\b.*\\b(stem|beam)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(tighten|lock)\\b.*\\b(screw|thumb\\s*screw)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(keep|hold)\\b.*\\b(stock)\\b.*\\b(against|on)\\b.*\\b(edge)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(scribe|run|draw)\\b.*\\b(spur|pin|cutter)\\b.*\\b(along)\\b.*\\b(edge)\\b", "flags": "i" }
-          ]
+           "rubric": [
+    {
+      "points": 1,
+      "check": "\\b(set|adjust|position)\\b.{0,60}\\b(distance|measurement|offset|mm|millimet(?:re|er)s?)\\b|\\b(stock|fence)\\b.{0,30}\\b(stem|beam|shaft)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(lock|tighten|secure|fix|clamp)\\b.{0,40}\\b(screw|thumb\\s*screw|knob|stock|gauge|it|setting)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(keep|hold|press|rest)\\b.{0,30}\\b(stock|fence)\\b.{0,30}\\b(against|on|along|flush\\s+against|firmly\\s+against)\\b.{0,20}\\b(reference\\s+edge|edge|side)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(run|scribe|draw|pull|push|slide|move)\\b.{0,40}\\b(spur|pin|cutter|point)\\b.{0,40}\\b(along|against|down)\\b.{0,20}\\b(edge|reference\\s+edge|timber|wood|workpiece)\\b",
+      "flags": "i"
+    }
+  ]
         },
         {
           "id": "q3a_saw_steel_bar",
