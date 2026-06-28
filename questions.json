@@ -265,12 +265,28 @@
           "hint": "Name the joint(s) and how you will assemble them (e.g., glue + clamps, screws, nails, dowels).",
           "type": "long",
           "maxPoints": 4,
-          "rubric": [
-            { "points": 1, "check": "\\b(butt|rebate|housing|dado|halving|lap|mitre|miter|mortise|tenon|dovetail|dowel|biscuit|box\\s*joint|finger\\s*joint)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(glue|adhesive|pva|epoxy)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(clamp|cramp|vice|vise)\\b|\\b(screw|nail|bolt|rivet|staple)\\b", "flags": "i" },
-            { "points": 1, "check": "\\b(mark\\s*out|measure|cut|drill|pilot\\s*hole|dry\\s*fit|assemble)\\b", "flags": "i" }
-          ]
+           "rubric": [
+    {
+      "points": 1,
+      "check": "\\b(butt|rebate|housing|dado|halving|lap|mitre|miter|mortise|tenon|dovetail|dowel|biscuit|box\\s*joint|finger\\s*joint)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(glue|adhesive|pva|epoxy|wood\\s*glue)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(clamp|cramp|vice|vise|screw|nail|bolt|rivet|staple)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(mark\\s*out|measure|cut|drill|pilot\\s*hole|dry\\s*fit|assemble|assembly|build|construct|put\\s*together|fit\\s*up)\\b",
+      "flags": "i"
+    }
+  ]
         },
         {
           "id": "q9_project_finish_and_application",
