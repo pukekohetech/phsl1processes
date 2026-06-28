@@ -250,7 +250,13 @@
           "hint": "Think: smoothing and shaping curves.",
           "type": "short",
           "maxPoints": 1,
-          "rubric": [{ "points": 1, "check": "\\b(curve|curved|round|shape|smooth)\\b", "flags": "i" }]
+          "rubric": [
+    {
+      "points": 1,
+      "check": "\\b(spokeshave|spoke\\s*shave)\\b.*\\b(smooth|smoothing|shape|shaping|round|curved|curve|contour|edge|wood)\\b|\\b(smooth|smoothing|shape|shaping)\\b.*\\b(curve|curved|round|contour)\\b",
+      "flags": "i"
+    }
+  ]
         },
         {
           "id": "q8_project_joints_and_joining",
