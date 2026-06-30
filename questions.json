@@ -525,10 +525,9 @@
       "flags": "i"
     }
   ]
-} , { "id": "rs_assemble", "text": "Assemble: What assembling was required? How did you do it?", "image": "rs_assemble.jpg", "hint": "Explain the order: dry fit, glue, clamp, fixings, check square, clean-up.", "type": "long", "maxPoints": 3, "rubric": [{ "points": 1, "check": "\\b(assemble|assembly|put\\s*together|join)\\b", "flags": "i" }, { "points": 1, "check": "\\b(dry\\s*fit|test\\s*fit|glue|clamp|screw|nail)\\b", "flags": "i" }, { "points": 1, "check": "\\b(check\\b.*\\b(square|90)\\b|wipe\\s*off|clean\\s*up|remove\\s*excess\\s*glue)\\b", "flags": "i" }] },
-        { "id": "rs_finishes", "text": "Finishes: What finishes/finishing were in this project? How did you do them?", "image": "rs_finishes.jpg", "hint": "Include surface prep, finish type, number of coats, and application method.", "type": "long", "maxPoints": 4, "rubric": [{ "points": 1, "check": "\\b(sand|sanding|prep|clean|dust)\\b", "flags": "i" }, { "points": 1, "check": "\\b(varnish|oil|polyurethane|paint|stain|wax|shellac|lacquer)\\b", "flags": "i" }, { "points": 1, "check": "\\b(brush|roller|spray|rag|wipe)\\b", "flags": "i" }, { "points": 1, "check": "\\b(coat|coats|dry|cure|between\\s*coats)\\b", "flags": "i" }] }
+} ,  { "id": "rs_finishes", "text": "Finishes: What finishes/finishing were in this project? How did you do them?", "image": "rs_finishes.jpg", "hint": "Include surface prep, finish type, number of coats, and application method.", "type": "long", "maxPoints": 4, "rubric": [{ "points": 1, "check": "\\b(sand|sanding|prep|clean|dust)\\b", "flags": "i" }, { "points": 1, "check": "\\b(varnish|oil|polyurethane|paint|stain|wax|shellac|lacquer)\\b", "flags": "i" }, { "points": 1, "check": "\\b(brush|roller|spray|rag|wipe)\\b", "flags": "i" }, { "points": 1, "check": "\\b(coat|coats|dry|cure|between\\s*coats)\\b", "flags": "i" }] }
       ]
-    },
+    }
 
   ]
 }
