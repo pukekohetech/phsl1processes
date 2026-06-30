@@ -276,9 +276,9 @@
       "check": "\\b(glue|adhesive|pva|epoxy|wood\\s*glue)\\b",
       "flags": "i"
     },
-    {
+     {
       "points": 1,
-      "check": "\\b(clamp|cramp|vice|vise|screw|nail|bolt|rivet|staple)\\b",
+      "check": "\\b(clamp|clamps|clamped|clamping|cramp|cramps|cramped|cramping|vice|vices|vise|vises|screw|screws|screwed|screwing|nail|nails|nailed|nailing|bolt|bolts|bolted|rivet|rivets|riveted|staple|staples|stapled|dowel|dowels|fastener|fasteners|fixing|fixings)\\b",
       "flags": "i"
     },
     {
