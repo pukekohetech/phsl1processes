@@ -72,28 +72,28 @@
           "hint": "Explain: set the distance, lock it, keep the stock against the edge, run the spur along with steady pressure, then store it safely.",
           "type": "long",
           "maxPoints": 4,
-          "rubric": [
-            {
-              "points": 1,
-              "check": "(?:\\b(?:set|sets|setting|adjust(?:ed|s|ing)?|position(?:ed|s|ing)?)\\b[\\s\\S]{0,100}(?:\\b(?:distance|measurement|offset)\\b|\\b\\d+(?:\\.\\d+)?\\s*mm\\b|\\bmillimet(?:re|er)s?\\b)|\\b(?:stock|fence)\\b[\\s\\S]{0,50}\\b(?:stem|beam|shaft)\\b|\\b(?:stem|beam|shaft)\\b[\\s\\S]{0,50}\\b(?:stock|fence)\\b)",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "(?:\\b(?:lock(?:ed|s|ing)?|tighten(?:ed|s|ing)?|secure(?:d|s|ing)?|fix(?:ed|es|ing)?|clamp(?:ed|s|ing)?)\\b[\\s\\S]{0,60}\\b(?:screw|thumb\\s*screw|knob|stock|gauge|setting|it)\\b|\\b(?:screw|thumb\\s*screw|knob|stock|gauge|setting)\\b[\\s\\S]{0,60}\\b(?:lock(?:ed|s|ing)?|tighten(?:ed|s|ing)?|secure(?:d|s|ing)?|fix(?:ed|es|ing)?|clamp(?:ed|s|ing)?)\\b)",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "(?:\\b(?:keep|kept|keeping|hold|held|holding|press(?:ed|es|ing)?|rest(?:ed|s|ing)?)\\b[\\s\\S]{0,70}\\b(?:stock|fence)\\b[\\s\\S]{0,70}\\b(?:against|on|along|flush\\s+against|firmly\\s+against)\\b[\\s\\S]{0,40}\\b(?:reference\\s+edge|face\\s+edge|edge|side)\\b|\\b(?:reference\\s+edge|face\\s+edge|edge|side)\\b[\\s\\S]{0,70}\\b(?:against|on|along|flush\\s+against|firmly\\s+against)\\b[\\s\\S]{0,40}\\b(?:stock|fence)\\b)",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "(?=[\\s\\S]*\\b(?:run|ran|running|scribe(?:d|s|ing)?|draw|drew|drawing|pull(?:ed|s|ing)?|push(?:ed|es|ing)?|slide|slid|sliding|move(?:d|s|ing)?)\\b)(?=[\\s\\S]*\\b(?:spur|pin|cutter|point|gauge|marking\\s*gauge)\\b)(?=[\\s\\S]*\\b(?:along|against|down)\\b[\\s\\S]{0,40}\\b(?:reference\\s+edge|face\\s+edge|edge|timber|wood|workpiece)\\b)",
-              "flags": "i"
-            }
-          ]
+         "rubric": [
+  {
+    "points": 1,
+    "check": "(?=[\\s\\S]*\\b(?:try\\s*square|tri\\s*square|carpenter'?s\\s*square|combination\\s*square|square)\\b)(?=[\\s\\S]*\\b(?:hold|held|holding|push|pushed|press|pressed|keep|kept|place|placed|put)\\b[\\s\\S]{0,100}\\b(?:against|onto|on)\\b[\\s\\S]{0,60}\\b(?:edge|side|board|timber|wood|workpiece)\\b)",
+    "flags": "i"
+  },
+  {
+    "points": 1,
+    "check": "(?=[\\s\\S]*\\b(?:mark|marked|marking|draw|drew|drawn|drawing|scribe|scribed|scribing|pencil|pen)\\b)(?=[\\s\\S]*(?:\\b(?:90|ninety)\\s*(?:°|degrees?|degree)?\\b|\\b(?:right\\s*angle|square\\s*line|square)\\b))",
+    "flags": "i"
+  },
+  {
+    "points": 1,
+    "check": "(?=[\\s\\S]*\\b(?:saw|sawed|sawn|sawing|cut|cuts|cutting)\\b)(?=[\\s\\S]*\\b(?:waste|waist)\\s*side\\b|(?=[\\s\\S]*\\b(?:outside|beside)\\b[\\s\\S]{0,30}\\b(?:line|mark)\\b)|(?=[\\s\\S]*\\bleave|leaving|left\\b[\\s\\S]{0,30}\\b(?:line|mark)\\b))",
+    "flags": "i"
+  },
+  {
+    "points": 1,
+    "check": "(?:\\b(?:check|checked|checking|test|tested|testing|confirm|confirmed|make\\s*sure|made\\s*sure)\\b[\\s\\S]{0,100}(?:\\b(?:square|squareness|right\\s*angle)\\b|\\b90\\s*(?:°|degrees?)?\\b)|\\b(?:trim|trimmed|trimming|plane|planed|planing|chisel|chiselled|chiseled|clean|cleaned|cleaning)\\b[\\s\\S]{0,100}\\b(?:end|edge|cut|surface|square)\\b)",
+    "flags": "i"
+  }
+]
         },
         {
           "id": "q3a_saw_steel_bar",
