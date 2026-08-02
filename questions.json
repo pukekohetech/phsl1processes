@@ -1,0 +1,994 @@
+{
+  "APP_ID": "pukekohetech-24356",
+  "VERSION": "2025",
+  "APP_TITLE": "US 24356 – Workshop Processes",
+  "APP_SUBTITLE": "PHS - L1 Building – Assessment",
+  "DEADLINE": {
+    "day": 1,
+    "month": 12,
+    "label": "Submission deadline"
+  },
+  "TEACHERS": [
+    {
+      "id": "RY",
+      "name": "Mr Reynolds",
+      "email": "ry@pukekohehigh.school.nz"
+    },
+    {
+      "id": "RNR",
+      "name": "Mr Ranford",
+      "email": "rnr@pukekohehigh.school.nz"
+    },
+    {
+      "id": "Other",
+      "name": "Other Teacher",
+      "email": "technology@pukekohehigh.school.nz"
+    }
+  ],
+  "ASSESSMENTS": [
+    {
+      "id": "24356-selfreflection",
+      "title": "Learner Self-reflection – 24356 (v3)",
+      "subtitle": "Apply elementary workshop procedures and processes for a BCATS project",
+      "usNumber": "US 24356",
+      "usVersion": "(v3)",
+      "credits": 8,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "q1_square_board_end",
+          "text": "Q1: Describe how you would square the end of a board.",
+          "image": "q1_square_board_end.jpg",
+          "hint": "Describe the steps: identify face side/edge, mark a 90° line, cut on the waste side, tidy the end, then check squareness.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:face\\s*(?:side|edge|mark)s?|reference\\s*(?:face|edge))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:mark(?:ed|s|ing)?|scribe(?:d|s|ing)?|draw(?:n|s|ing)?)\\b[\\s\\S]{0,100}(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?)|(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?)[\\s\\S]{0,100}\\b(?:mark(?:ed|s|ing)?|scribe(?:d|s|ing)?|draw(?:n|s|ing)?)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:saw(?:ed|s|ing)?|cut(?:s|ting)?)\\b[\\s\\S]{0,100}\\b(?:waste\\s*side|outside(?:\\s+of)?\\s+the\\s+line|leave(?:s|ing)?\\s+the\\s+line)\\b|\\b(?:waste\\s*side|outside(?:\\s+of)?\\s+the\\s+line|leave(?:s|ing)?\\s+the\\s+line)\\b[\\s\\S]{0,100}\\b(?:saw(?:ed|s|ing)?|cut(?:s|ting)?)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:chisel(?:led|ed|s|ing)?|plane(?:d|s|ing)?|shooting\\s*board|clean(?:ed|s|ing)?\\s*up|trim(?:med|s|ming)?)\\b[\\s\\S]{0,100}(?:\\b(?:end|sawn\\s*end|cut\\s*surface)\\b|(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?))|\\b(?:end|sawn\\s*end|cut\\s*surface)\\b[\\s\\S]{0,100}\\b(?:chisel(?:led|ed|s|ing)?|plane(?:d|s|ing)?|shooting\\s*board|clean(?:ed|s|ing)?\\s*up|trim(?:med|s|ming)?)\\b|\\b(?:check(?:ed|s|ing)?|test(?:ed|s|ing)?|confirm(?:ed|s|ing)?|make\\s*sure|made\\s*sure)\\b[\\s\\S]{0,100}(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?)|(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?)[\\s\\S]{0,100}\\b(?:check(?:ed|s|ing)?|test(?:ed|s|ing)?|confirm(?:ed|s|ing)?|make\\s*sure|made\\s*sure)\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q2_marking_gauge_parallel_line",
+          "text": "Q2: Describe how you would use a marking gauge to scribe a line parallel to an edge.",
+          "image": "q2_marking_gauge_parallel_line.jpg",
+          "hint": "Explain: set the distance, lock it, keep the stock against the edge, run the spur along with steady pressure, then store it safely.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?:\\b(?:set|sets|setting|adjust(?:ed|s|ing)?|position(?:ed|s|ing)?)\\b[\\s\\S]{0,100}(?:\\b(?:distance|measurement|offset)\\b|\\b\\d+(?:\\.\\d+)?\\s*mm\\b|\\bmillimet(?:re|er)s?\\b)|\\b(?:stock|fence)\\b[\\s\\S]{0,50}\\b(?:stem|beam|shaft)\\b|\\b(?:stem|beam|shaft)\\b[\\s\\S]{0,50}\\b(?:stock|fence)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:lock(?:ed|s|ing)?|tighten(?:ed|s|ing)?|secure(?:d|s|ing)?|fix(?:ed|es|ing)?|clamp(?:ed|s|ing)?)\\b[\\s\\S]{0,60}\\b(?:screw|thumb\\s*screw|knob|stock|gauge|setting|it)\\b|\\b(?:screw|thumb\\s*screw|knob|stock|gauge|setting)\\b[\\s\\S]{0,60}\\b(?:lock(?:ed|s|ing)?|tighten(?:ed|s|ing)?|secure(?:d|s|ing)?|fix(?:ed|es|ing)?|clamp(?:ed|s|ing)?)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:keep|kept|keeping|hold|held|holding|press(?:ed|es|ing)?|rest(?:ed|s|ing)?)\\b[\\s\\S]{0,70}\\b(?:stock|fence)\\b[\\s\\S]{0,70}\\b(?:against|on|along|flush\\s+against|firmly\\s+against)\\b[\\s\\S]{0,40}\\b(?:reference\\s+edge|face\\s+edge|edge|side)\\b|\\b(?:reference\\s+edge|face\\s+edge|edge|side)\\b[\\s\\S]{0,70}\\b(?:against|on|along|flush\\s+against|firmly\\s+against)\\b[\\s\\S]{0,40}\\b(?:stock|fence)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*\\b(?:run|ran|running|scribe(?:d|s|ing)?|draw|drew|drawing|pull(?:ed|s|ing)?|push(?:ed|es|ing)?|slide|slid|sliding|move(?:d|s|ing)?)\\b)(?=[\\s\\S]*\\b(?:spur|pin|cutter|point|gauge|marking\\s*gauge)\\b)(?=[\\s\\S]*\\b(?:along|against|down)\\b[\\s\\S]{0,40}\\b(?:reference\\s+edge|face\\s+edge|edge|timber|wood|workpiece)\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q3a_saw_steel_bar",
+          "text": "Q3a: What type of hand saw will you use to cut a steel bar?",
+          "image": "q3a_saw_steel_bar.jpg",
+          "hint": "Think: fine-toothed frame saw designed for metal.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:junior\\s+)?hack\\s*saw\\b|\\bhacksaw\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q3b_saw_mdf_sheet",
+          "text": "Q3b: What type of hand saw will you use to cut a sheet of MDF?",
+          "image": "q3b_saw_mdf_sheet.jpg",
+          "hint": "Think: general timber sheet saw for cutting boards/sheets to size by hand.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:panel\\s*saw|hand\\s*saw|handsaw)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q3c_saw_50x20_timber",
+          "text": "Q3c: What type of hand saw will you use to cut a 50 x 20mm piece of timber in half (across the grain)?",
+          "image": "q3c_saw_50x20_timber.jpg",
+          "hint": "Across the grain = a saw designed for cross-cutting.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\bcross[-\\s]*cut(?:ting)?(?:\\s*saw)?\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q4_smoothing_plane_uses",
+          "text": "Q4: Describe the uses of a smoothing plane.",
+          "image": "q4_smoothing_plane_uses.jpg",
+          "hint": "Cover 2–3 uses: smoothing/finishing surfaces, straightening, and bringing timber down to size.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*\\b(?:smooth(?:ed|s|ing)?|finish(?:ed|es|ing)?|remove(?:d|s|ing)?\\s+(?:the\\s+)?rough(?:ness)?|fine\\s+shavings?|clean(?:ed|s|ing)?\\s+up|final\\s+finish)\\b)(?=[\\s\\S]*\\b(?:surface|surfaces|timber|wood|face|faces|board|boards)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*\\b(?:straighten(?:ed|s|ing)?|true|trued|truing|flatten(?:ed|s|ing)?|level(?:led|ed|s|ling|ing)?|joint(?:ed|s|ing)?)\\b)(?=[\\s\\S]*\\b(?:edge|edges|face|faces|surface|surfaces|timber|wood|board|boards)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*\\b(?:reduce(?:d|s|ing)?|bring|brings|bringing|brought|plane(?:d|s|ing)?|trim(?:med|s|ming)?|remove(?:d|s|ing)?)\\b)(?=[\\s\\S]*\\b(?:size|final\\s*size|correct\\s*size|dimension|dimensions|thickness|width|height)\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q5_protect_plane_blade",
+          "text": "Q5: Plane blades need to be maintained in a sharp condition. How can you protect them from damage when not in use?",
+          "image": "q5_protect_plane_blade.jpg",
+          "hint": "Mention cleaning/drying, protecting the edge, and storing the plane safely so the blade can’t hit anything hard.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:clean(?:ed|s|ing)?|wipe(?:d|s|ing)?|dry|dried|drying|keep\\s+dry|oil(?:ed|s|ing)?|light\\s*oil|prevent(?:ed|s|ing)?\\s+rust|rust\\s+prevention)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:cover(?:ed|s|ing)?|sheath(?:ed|s|ing)?|cap(?:ped|s|ping)?|retract(?:ed|s|ing)?|wind|wound|back\\s*off)\\b[\\s\\S]{0,60}\\b(?:blade|iron|cutting\\s*edge)\\b|\\b(?:blade|iron|cutting\\s*edge)\\b[\\s\\S]{0,60}\\b(?:cover(?:ed|s|ing)?|guard(?:ed|s|ing)?|retract(?:ed|s|ing)?|wound\\s+back)\\b|\\bblade\\s*guard\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:store(?:d|s|ing)?|put|puts|putting|place(?:d|s|ing)?|keep|kept|keeping|lay|laid|rest(?:ed|s|ing)?)\\b[\\s\\S]{0,100}\\b(?:safe(?:ly)?|rack|drawer|toolbox|cabinet|on\\s+its\\s+side|on\\s+the\\s+side|sole\\s+up|blade\\s+clear|hard\\s+(?:objects|surfaces)|away\\s+from\\s+hard\\s+(?:objects|surfaces))\\b|\\b(?:do\\s+not|don't|never|not)\\s+(?:knock|bang|drop|leave)\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q6a_try_square_use",
+          "text": "Q6a: What would you use a try square for?",
+          "image": "q6a_try_square_use.jpg",
+          "hint": "Think: checking and marking 90°/square lines.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*(?:\\b(?:right\\s*angles?|square(?:ness)?)\\b|\\b90\\s*(?:°|degrees?)?))(?=[\\s\\S]*\\b(?:mark(?:ed|s|ing)?|check(?:ed|s|ing)?|test(?:ed|s|ing)?|set\\s*out|draw(?:n|s|ing)?|make\\s*sure|made\\s*sure)\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q6b_combination_square_use",
+          "text": "Q6b: What would you use a combination square for?",
+          "image": "q6b_combination_square_use.jpg",
+          "hint": "Think: marking 90° and 45°; measuring/checking depths and offsets.",
+          "type": "short",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?:\\b(?:90|45)\\s*(?:°|degrees?)?|\\b(?:right\\s*angle|mitre|miter)s?\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:depth|depths|measure(?:d|s|ment|ments|ing)?|gauge(?:d|s|ing)?|rebate|rebates|offset|offsets|height|heights)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q6c_steel_rule_use",
+          "text": "Q6c: What would you use a steel rule for?",
+          "image": "q6c_steel_rule_use.jpg",
+          "hint": "Think: accurate measuring and marking out.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:measure(?:d|s|ment|ments|ing)?|mark(?:ed|s|ing)?\\s*out|accurate(?:ly)?|(?:take|taking)\\s+measurements?)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q6d_sliding_bevel_use",
+          "text": "Q6d: What would you use a sliding bevel for?",
+          "image": "q6d_sliding_bevel_use.jpg",
+          "hint": "Think: copying/transferring and marking odd angles.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:angle|angles|odd\\s*angles?|transfer(?:red|s|ring)?|copy|copied|copies|copying|bevel|mitre|miter)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q6e_mortise_gauge_use",
+          "text": "Q6e: What would you use a mortise gauge for?",
+          "image": "q6e_mortise_gauge_use.jpg",
+          "hint": "Think: scribing two parallel lines for mortise-and-tenon or dowels.",
+          "type": "short",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:(?:two|2|double|pair\\s+of|both)\\s+(?:parallel\\s+)?lines?|parallel\\s+lines?|mark(?:ed|s|ing)?\\s+both\\s+sides)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:mortise|mortice|tenon|dowel)s?\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q7a_dovetail_saw_use",
+          "text": "Q7a: What would you use a dovetail saw for?",
+          "image": "q7a_dovetail_saw_use.jpg",
+          "hint": "Think: fine joinery, especially dovetails.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:dovetail(?:s|\\s+joints?)?|fine\\s+joints?|fine\\s+joinery|joinery)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q7b_crosscut_saw_use",
+          "text": "Q7b: What would you use a cross cut saw for?",
+          "image": "q7b_crosscut_saw_use.jpg",
+          "hint": "Think: cutting timber to length across the grain.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:across\\s+(?:the\\s+)?grain|cross[-\\s]*grain|to\\s+length|cut(?:ting)?\\s+(?:timber|wood|boards?)?\\s*(?:to\\s+length|across\\s+(?:the\\s+)?grain)|cross[-\\s]*cut(?:ting)?)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q7c_hacksaw_use",
+          "text": "Q7c: What would you use a hack saw for?",
+          "image": "q7c_hacksaw_use.jpg",
+          "hint": "Think: cutting metal (and some plastics).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:metal|metals|steel|aluminium|aluminum|brass|copper|plastic|plastics)\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q7d_bevel_edge_chisel_use",
+          "text": "Q7d: What would you use a bevelled-edge chisel for?",
+          "image": "q7d_bevel_edge_chisel_use.jpg",
+          "hint": "Think: chopping/paring and cleaning up joints like housings, hinges, dovetails.",
+          "type": "short",
+          "maxPoints": 2,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:chop(?:ped|s|ping)?|pare(?:d|s|ing)?|paring|trim(?:med|s|ming)?|clean(?:ed|s|ing)?\\s*up|remove(?:d|s|ing)?\\s+waste|cut(?:s|ting)?\\s+out)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:joint|hinge|dovetail|housing|halving|mortise|mortice)s?\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q7e_jackplane_use",
+          "text": "Q7e: What would you use a jack plane for?",
+          "image": "q7e_jackplane_use.jpg",
+          "hint": "Think: straightening/flattening long timber and general stock removal.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*\\b(?:straighten(?:ed|s|ing)?|flatten(?:ed|s|ing)?|true|trued|truing|level(?:led|ed|s|ling|ing)?|remove(?:d|s|ing)?\\s+(?:a\\s+lot\\s+of\\s+)?(?:stock|material)|rough\\s+plan(?:e|ing))\\b)(?=[\\s\\S]*\\b(?:long|length|timber|wood|board|boards|stock|surface|surfaces|edge|edges|material)\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q7f_spokeshave_use",
+          "text": "Q7f: What would you use a spokeshave for?",
+          "image": "q7f_spokeshave_use.jpg",
+          "hint": "Think: smoothing and shaping curves.",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*\\b(?:smooth(?:ed|s|ing)?|shape(?:d|s|ing)?|round(?:ed|s|ing)?)\\b)(?=[\\s\\S]*\\b(?:curve|curves|curved|round|contour|contours|edge|edges|wood|timber|surface|surfaces)\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q8_project_joints_and_joining",
+          "text": "Q8: Identify the joints you are going to use on your project and the method you have chosen to join the materials together.",
+          "image": "q8_project_joints_and_joining.jpg",
+          "hint": "Name the joint(s) and how you will assemble them (e.g., glue + clamps, screws, nails, dowels).",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:butt|rebate|housing|dado|halving|lap|mitre|miter|mortise|mortice|tenon|dovetail|dowel|biscuit|box\\s*joint|finger\\s*joint)s?\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:glue(?:d|s|ing)?|adhesive|adhesives|pva|epoxy|wood\\s*glue)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|vice|vices|vise|vises|screw(?:ed|s|ing)?|nail(?:ed|s|ing)?|bolt(?:ed|s|ing)?|rivet(?:ed|s|ing)?|staple(?:d|s|ing)?|dowel(?:led|ed|s|ing)?|fastener|fasteners|fixing|fixings)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:mark(?:ed|s|ing)?\\s*out|measure(?:d|s|ment|ments|ing)?|cut(?:s|ting)?|drill(?:ed|s|ing)?|pilot\\s*holes?|dry\\s*fit(?:ted|s|ting)?|assemble(?:d|s|ing)?|assembly|build|built|building|construct(?:ed|s|ing)?|put(?:s|ting)?\\s+together|fit(?:ted|s|ting)?\\s*up|join(?:ed|s|ing)?)\\b|\\b(?:hold|held|holding)\\b[\\s\\S]{0,40}\\b(?:together|side\\s+on)\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "q9_project_finish_and_application",
+          "text": "Q9: What type of finish are you going to use and how are you going to apply it to your project?",
+          "image": "q9_project_finish_and_application.jpg",
+          "hint": "State the finish type (e.g., oil/varnish/paint/stain/wax/polyurethane) and how you’ll apply it (prep, coats, method, drying).",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:oil(?:ed|s|ing)?|linseed|danish|varnish(?:ed|es|ing)?|polyurethane|clear\\s*coat|lacquer(?:ed|s|ing)?|paint(?:ed|s|ing)?|stain(?:ed|s|ing)?|dye(?:d|s|ing)?|wax(?:ed|es|ing)?|shellac|french\\s*polish(?:ed|es|ing)?)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:brush(?:ed|es|ing)?|roll(?:ed|s|ing)?|spray(?:ed|s|ing)?|rag|cloth|wipe(?:d|s|ing)?\\s*on|appl(?:y|ied|ies|ying)\\s+with)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:sand(?:ed|s|ing)?|prep(?:ped|s|ping)?|prepare(?:d|s|ing)?|clean(?:ed|s|ing)?|coat(?:ed|s|ing)?|dry|dried|dries|drying|cure(?:d|s|ing)?)\\b",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24356-recordsheet - Porject 1",
+      "title": "Assessment Record Sheet – Workshop processes - Project 1",
+      "subtitle": "Record the workshop processes you used for your project",
+      "usNumber": "US 24356",
+      "usVersion": "(v3)",
+      "credits": 8,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "rs_project_name",
+          "text": "Project: What is your project called?",
+          "image": "rs_project_name.png",
+          "hint": "Use the name your teacher uses (e.g., coffee table, toolbox, stool).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\S+",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_materials_used",
+          "text": "Materials: What materials were used in this project? (Timber + at least 3 other materials.)",
+          "image": "rs_materials_used.png",
+          "hint": "List materials and products, such as timber, plywood/MDF, screws, nails, glue, varnish, polyurethane, paint, metal, plastic, or other materials used.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:(?:treated\\s+)?(?:h[1-6](?:\\.\\d)?\\s+)?(?:timber|wood|pine|radiata(?:\\s+pine)?|rimu|macrocarpa|cedar|oak|hardwood|softwood|decking|fence\\s*rails?|rails?|palings?|pailings?|posts?|boards?|planks?|battens?|dowels?|mouldings?))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:mdf|plywood|ply|particle\\s*board|chipboard|hardboard|customwood|laminate|veneer|melamine|sheet\\s*material|acm|metal|steel|stainless\\s*steel|aluminium|aluminum|brass|copper|zinc|galvanised|galvanized|plastic|acrylic|perspex|pvc|polycarbonate|rubber|foam|glass|fabric|leather|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|pin(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|hinge(?:s)?|bracket(?:s)?|fastener(?:s)?|fixing(?:s)?|hardware|staple(?:s)?|rivet(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|glue|adhesive|pva|epoxy|contact\\s*adhesive|wood\\s*glue|silicone|sealant|filler|putty|varnish|polyurethane|oil|paint|primer|undercoat|stain|dye|wax|clear\\s*coat|clear\\s*finish|finish|sealer|lacquer|shellac))\\b){1}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:mdf|plywood|ply|particle\\s*board|chipboard|hardboard|customwood|laminate|veneer|melamine|sheet\\s*material|acm|metal|steel|stainless\\s*steel|aluminium|aluminum|brass|copper|zinc|galvanised|galvanized|plastic|acrylic|perspex|pvc|polycarbonate|rubber|foam|glass|fabric|leather|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|pin(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|hinge(?:s)?|bracket(?:s)?|fastener(?:s)?|fixing(?:s)?|hardware|staple(?:s)?|rivet(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|glue|adhesive|pva|epoxy|contact\\s*adhesive|wood\\s*glue|silicone|sealant|filler|putty|varnish|polyurethane|oil|paint|primer|undercoat|stain|dye|wax|clear\\s*coat|clear\\s*finish|finish|sealer|lacquer|shellac))\\b){2}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:mdf|plywood|ply|particle\\s*board|chipboard|hardboard|customwood|laminate|veneer|melamine|sheet\\s*material|acm|metal|steel|stainless\\s*steel|aluminium|aluminum|brass|copper|zinc|galvanised|galvanized|plastic|acrylic|perspex|pvc|polycarbonate|rubber|foam|glass|fabric|leather|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|pin(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|hinge(?:s)?|bracket(?:s)?|fastener(?:s)?|fixing(?:s)?|hardware|staple(?:s)?|rivet(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|glue|adhesive|pva|epoxy|contact\\s*adhesive|wood\\s*glue|silicone|sealant|filler|putty|varnish|polyurethane|oil|paint|primer|undercoat|stain|dye|wax|clear\\s*coat|clear\\s*finish|finish|sealer|lacquer|shellac))\\b){3}",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_mark_out",
+          "text": "Mark out: What had to be marked out? What tools were used?",
+          "image": "rs_mark_out.jpg",
+          "hint": "Mention measurements and tools (rule/tape, try square, combination square, marking gauge, pencil/knife).",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?:\\b(?:mark(?:ed|s|ing)?\\s*out|set(?:ting)?\\s*out|measure(?:d|s|ment|ments|ing)?|layout|lay(?:ing)?\\s*out|laid\\s*out|scribe(?:d|s|ing)?|draw(?:n|s|ing)?|transfer(?:red|s|ring)?)\\b|\\b\\d+(?:\\.\\d+)?\\s*(?:mm|cm|m)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:lengths?|widths?|heights?|thickness(?:es)?|sizes?|dimensions?|measurements?|positions?|locations?|cut(?:ting)?\\s*lines?|lines?|angles?|centres?|centers?|centre\\s*lines?|center\\s*lines?|holes?|drill\\s*points?|joints?|lap\\s*joints?|mitres?|miters?|mortises?|mortices?|tenons?|rebates?|rabbets?|housings?|dados?|shoulders?|waste\\s*sides?|parts?|pieces?|peices?|components?|rails?|legs?|frames?|bodies?|body|panels?|tops?|bases?|sides?|ends?))\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_cut_shape",
+          "text": "Cut/shape: What had to be cut, what had to be shaped, what tools did you use?",
+          "image": "rs_cut_shape.jpg",
+          "hint": "Include the parts you cut/shape and the tools (saws, chisels, planes, files, sanders).",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*\\b(?:cut|cuts|cutting|saw|sawed|sawn|sawing|trim|trimmed|trimming|shape|shaped|shaping)\\b)(?=[\\s\\S]*\\b(?:(?:timber|wood|mdf|ply|plywood|metal|steel|aluminium|aluminum|plastic|acrylic|boards?|panels?|parts?|pieces?|peices?|components?|rails?|legs?|frames?|bodies?|body|tops?|bases?|sides?|ends?|curves?|corners?|edges?|joints?|lap\\s*joints?|mitre\\s*joints?|miter\\s*joints?|mortises?|mortices?|tenons?|rebates?|rabbets?|housings?|dados?|slots?|grooves?|holes?))\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?))\\b){1}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:(?:[\\s\\S]*?\\b(?:(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?))\\b){2}|\\b(?:(?:clean(?:ed|s|ing)?\\s*(?:it|them|the\\s+\\w+)?\\s*up|remove(?:d|s|ing)?\\s+(?:the\\s+)?(?:waste|roughness|material|saw\\s*marks?)|trim(?:med|s|ming)?|pare(?:d|s|ing)?|chisel(?:led|ed|s|ing)?|shape(?:d|s|ing)?|smooth(?:ed|s|ing)?|round(?:ed|s|ing)?|file(?:d|s|ing)?|rasp(?:ed|s|ing)?|plane(?:d|s|ing)?|sand(?:ed|s|ing)?|finish(?:ed|es|ing)?|refine(?:d|s|ing)?|no\\s+shaping\\s+(?:was\\s+)?(?:needed|required)|nothing\\s+(?:needed|had)\\s+(?:to\\s+be\\s+)?shap(?:ed|ing)))\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:(?:[\\s\\S]*?\\b(?:(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?))\\b){3}|\\b(?:(?:clean(?:ed|s|ing)?\\s*(?:it|them|the\\s+\\w+)?\\s*up|remove(?:d|s|ing)?\\s+(?:the\\s+)?(?:waste|roughness|material|saw\\s*marks?)|trim(?:med|s|ming)?|pare(?:d|s|ing)?|chisel(?:led|ed|s|ing)?|shape(?:d|s|ing)?|smooth(?:ed|s|ing)?|round(?:ed|s|ing)?|file(?:d|s|ing)?|rasp(?:ed|s|ing)?|plane(?:d|s|ing)?|sand(?:ed|s|ing)?|finish(?:ed|es|ing)?|refine(?:d|s|ing)?|no\\s+shaping\\s+(?:was\\s+)?(?:needed|required)|nothing\\s+(?:needed|had)\\s+(?:to\\s+be\\s+)?shap(?:ed|ing)))\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_joints_jointing",
+          "text": "Joints/jointing: What joints were used in your project? What tools and materials did you need?",
+          "image": "rs_joints_jointing.jpg",
+          "hint": "Name the joints, and mention tools/materials such as saws, chisels, glue, clamps, drill, pilot holes, screws, nails, dowels, or other fixings.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:(?:butt|rebate|rabbet|housing|dado|halving|half[-\\s]*lap|lap|mitre|miter|mortise|mortice|tenon|mortise\\s*and\\s*tenon|mortice\\s*and\\s*tenon|dowel|dovetail|box\\s*joint|finger\\s*joint|biscuit|domino|bridle|scarf|tongue\\s*and\\s*groove|pocket[-\\s]*hole|spline|corner\\s*block|nailed\\s*joint|screwed\\s*joint|bolted\\s*joint))s?\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?)|(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?)|drill\\s*bits?|pilot\\s*bits?|countersink(?:s|ing)?|clamps?|cramps?|g[-\\s]*clamps?|f[-\\s]*clamps?|sash\\s*clamps?|bar\\s*clamps?|quick[-\\s]*grip(?:s)?|vice|vices|vise|vises|glue|adhesive|pva|epoxy|wood\\s*glue|contact\\s*adhesive|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|staple(?:s)?|rivet(?:s)?|fastener(?:s)?|fixing(?:s)?|hammer(?:s)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?))\\b){1}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?)|(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?)|drill\\s*bits?|pilot\\s*bits?|countersink(?:s|ing)?|clamps?|cramps?|g[-\\s]*clamps?|f[-\\s]*clamps?|sash\\s*clamps?|bar\\s*clamps?|quick[-\\s]*grip(?:s)?|vice|vices|vise|vises|glue|adhesive|pva|epoxy|wood\\s*glue|contact\\s*adhesive|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|staple(?:s)?|rivet(?:s)?|fastener(?:s)?|fixing(?:s)?|hammer(?:s)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?))\\b){2}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?)|(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?)|drill\\s*bits?|pilot\\s*bits?|countersink(?:s|ing)?|clamps?|cramps?|g[-\\s]*clamps?|f[-\\s]*clamps?|sash\\s*clamps?|bar\\s*clamps?|quick[-\\s]*grip(?:s)?|vice|vices|vise|vises|glue|adhesive|pva|epoxy|wood\\s*glue|contact\\s*adhesive|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|staple(?:s)?|rivet(?:s)?|fastener(?:s)?|fixing(?:s)?|hammer(?:s)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?))\\b){3}",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_assemble",
+          "text": "Assemble: What assembling was required? How did you do it?",
+          "image": "rs_assemble.jpg",
+          "hint": "Explain the order: dry fit, glue, clamp, fixings, check square, clean-up.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:assemble(?:d|s|ing)?|assembly|put(?:s|ting)?\\s+together|join(?:ed|s|ing)?|build|built|building|construct(?:ed|s|ing)?|fit(?:ted|s|ting)?|fix(?:ed|es|ing)?|attach(?:ed|es|ing)?|secure(?:d|s|ing)?|nail(?:ed|s|ing)?|screw(?:ed|s|ing)?|bolt(?:ed|s|ing)?|glue(?:d|s|ing)?)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:glue(?:d|s|ing)?|adhesive|pva|epoxy|clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|screw(?:ed|s|ing)?|nail(?:ed|s|ing)?|bolt(?:ed|s|ing)?|staple(?:d|s|ing)?|rivet(?:ed|s|ing)?|dowel(?:led|ed|s|ing)?|domino(?:es|s)?|biscuit(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|hammer(?:ed|s|ing)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|drill(?:ed|s|ing)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?|mallet(?:s)?|vice|vices|vise|vises))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:(?:[\\s\\S]*?\\b(?:(?:glue(?:d|s|ing)?|adhesive|pva|epoxy|clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|screw(?:ed|s|ing)?|nail(?:ed|s|ing)?|bolt(?:ed|s|ing)?|staple(?:d|s|ing)?|rivet(?:ed|s|ing)?|dowel(?:led|ed|s|ing)?|domino(?:es|s)?|biscuit(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|hammer(?:ed|s|ing)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|drill(?:ed|s|ing)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?|mallet(?:s)?|vice|vices|vise|vises))\\b){2}|\\b(?:(?:align(?:ed|s|ing|ment)?|line(?:d)?\\s*up|in\\s*line|straight|square|squareness|level|plumb|flush|even|centred|centered|check(?:ed|s|ing)?|measure(?:d|s|ing)?\\s*diagonals?|dry\\s*fit(?:ted|s|ting)?|test\\s*fit(?:ted|s|ting)?|hold|held|holding|support(?:ed|s|ing)?|clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|jig(?:s)?|template(?:s)?|wipe(?:d|s|ing)?\\s*off|remove(?:d|s|ing)?\\s+excess\\s+glue|clean(?:ed|s|ing)?\\s*up|allow(?:ed|s|ing)?\\s+to\\s+dry|leave|left|leaving\\s+to\\s+dry))\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_finishes",
+          "text": "Finishes: What finishes/finishing were in this project? How did you do them?",
+          "image": "rs_finishes.jpg",
+          "hint": "Include surface prep, finish type, number of coats, and application method.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:finish(?:ed|es|ing)?|apply|applied|applies|applying|coat(?:ed|s|ing)?|paint(?:ed|s|ing)?|varnish(?:ed|es|ing)?|stain(?:ed|s|ing)?|oil(?:ed|s|ing)?|wax(?:ed|es|ing)?|lacquer(?:ed|s|ing)?|seal(?:ed|s|ing)?)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:varnish(?:ed|es|ing)?|polyurethane|clear\\s*(?:satin\\s+|gloss\\s+|matt\\s+|matte\\s+)?coat|clear\\s*finish|lacquer(?:ed|s|ing)?|shellac|paint(?:ed|s|ing)?|fence\\s*paint|exterior\\s*paint|interior\\s*paint|spray\\s*paint|enamel|primer|undercoat|stain(?:ed|s|ing)?|dye(?:d|s|ing)?|oil(?:ed|s|ing)?|linseed\\s*oil|danish\\s*oil|tung\\s*oil|wax(?:ed|es|ing)?|french\\s*polish|sealer|waterproofing|preservative))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:paint\\s*brush(?:es)?|paintbrush(?:es)?|brush(?:es)?|roller(?:s)?|spray\\s*gun(?:s)?|sprayer(?:s)?|aerosol(?:s)?|spray(?:ed|s|ing)?|rag(?:s)?|cloth(?:s)?|sponge(?:s)?|foam\\s*brush(?:es)?|pad(?:s)?|wipe(?:d|s|ing)?\\s*on))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:(?:sand(?:ed|s|ing)?|prep(?:ped|s|ping)?|prepare(?:d|s|ing)?|clean(?:ed|s|ing)?|dust(?:ed|s|ing)?|remove(?:d|s|ing)?\\s+dust|primer|undercoat|seal(?:ed|s|ing)?|coat(?:ed|s|ing)?|one\\s+coat|two\\s+coats?|three\\s+coats?|\\d+\\s+coats?|dry|dried|dries|drying|cure(?:d|s|ing)?|between\\s+coats?|black|white|red|blue|green|yellow|orange|brown|grey|gray|silver|clear|natural|dark|light|gloss|glossy|satin|matt|matte|fence\\s*paint|exterior\\s*paint|interior\\s*paint|spray\\s*paint|water[-\\s]*based|oil[-\\s]*based))\\b|(?:\\busing\\b|\\bwith\\b|\\bby\\b)[\\s\\S]{0,50}\\b(?:(?:paint\\s*brush(?:es)?|paintbrush(?:es)?|brush(?:es)?|roller(?:s)?|spray\\s*gun(?:s)?|sprayer(?:s)?|aerosol(?:s)?|spray(?:ed|s|ing)?|rag(?:s)?|cloth(?:s)?|sponge(?:s)?|foam\\s*brush(?:es)?|pad(?:s)?|wipe(?:d|s|ing)?\\s*on))\\b)",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24356-recordsheet_Project 2",
+      "title": "Assessment Record Sheet – Workshop processes - Project 2",
+      "subtitle": "Record the workshop processes you used for your project",
+      "usNumber": "US 24356",
+      "usVersion": "(v3)",
+      "credits": 8,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "rs_project_name",
+          "text": "Project: What is your project called?",
+          "image": "rs_project_name.png",
+          "hint": "Use the name your teacher uses (e.g., coffee table, toolbox, stool).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\S+",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_materials_used",
+          "text": "Materials: What materials were used in this project? (Timber + at least 3 other materials.)",
+          "image": "rs_materials_used.png",
+          "hint": "List materials and products, such as timber, plywood/MDF, screws, nails, glue, varnish, polyurethane, paint, metal, plastic, or other materials used.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:(?:treated\\s+)?(?:h[1-6](?:\\.\\d)?\\s+)?(?:timber|wood|pine|radiata(?:\\s+pine)?|rimu|macrocarpa|cedar|oak|hardwood|softwood|decking|fence\\s*rails?|rails?|palings?|pailings?|posts?|boards?|planks?|battens?|dowels?|mouldings?))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:mdf|plywood|ply|particle\\s*board|chipboard|hardboard|customwood|laminate|veneer|melamine|sheet\\s*material|acm|metal|steel|stainless\\s*steel|aluminium|aluminum|brass|copper|zinc|galvanised|galvanized|plastic|acrylic|perspex|pvc|polycarbonate|rubber|foam|glass|fabric|leather|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|pin(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|hinge(?:s)?|bracket(?:s)?|fastener(?:s)?|fixing(?:s)?|hardware|staple(?:s)?|rivet(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|glue|adhesive|pva|epoxy|contact\\s*adhesive|wood\\s*glue|silicone|sealant|filler|putty|varnish|polyurethane|oil|paint|primer|undercoat|stain|dye|wax|clear\\s*coat|clear\\s*finish|finish|sealer|lacquer|shellac))\\b){1}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:mdf|plywood|ply|particle\\s*board|chipboard|hardboard|customwood|laminate|veneer|melamine|sheet\\s*material|acm|metal|steel|stainless\\s*steel|aluminium|aluminum|brass|copper|zinc|galvanised|galvanized|plastic|acrylic|perspex|pvc|polycarbonate|rubber|foam|glass|fabric|leather|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|pin(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|hinge(?:s)?|bracket(?:s)?|fastener(?:s)?|fixing(?:s)?|hardware|staple(?:s)?|rivet(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|glue|adhesive|pva|epoxy|contact\\s*adhesive|wood\\s*glue|silicone|sealant|filler|putty|varnish|polyurethane|oil|paint|primer|undercoat|stain|dye|wax|clear\\s*coat|clear\\s*finish|finish|sealer|lacquer|shellac))\\b){2}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:mdf|plywood|ply|particle\\s*board|chipboard|hardboard|customwood|laminate|veneer|melamine|sheet\\s*material|acm|metal|steel|stainless\\s*steel|aluminium|aluminum|brass|copper|zinc|galvanised|galvanized|plastic|acrylic|perspex|pvc|polycarbonate|rubber|foam|glass|fabric|leather|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|pin(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|hinge(?:s)?|bracket(?:s)?|fastener(?:s)?|fixing(?:s)?|hardware|staple(?:s)?|rivet(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|glue|adhesive|pva|epoxy|contact\\s*adhesive|wood\\s*glue|silicone|sealant|filler|putty|varnish|polyurethane|oil|paint|primer|undercoat|stain|dye|wax|clear\\s*coat|clear\\s*finish|finish|sealer|lacquer|shellac))\\b){3}",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_mark_out",
+          "text": "Mark out: What had to be marked out? What tools were used?",
+          "image": "rs_mark_out.jpg",
+          "hint": "Mention measurements and tools (rule/tape, try square, combination square, marking gauge, pencil/knife).",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?:\\b(?:mark(?:ed|s|ing)?\\s*out|set(?:ting)?\\s*out|measure(?:d|s|ment|ments|ing)?|layout|lay(?:ing)?\\s*out|laid\\s*out|scribe(?:d|s|ing)?|draw(?:n|s|ing)?|transfer(?:red|s|ring)?)\\b|\\b\\d+(?:\\.\\d+)?\\s*(?:mm|cm|m)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:lengths?|widths?|heights?|thickness(?:es)?|sizes?|dimensions?|measurements?|positions?|locations?|cut(?:ting)?\\s*lines?|lines?|angles?|centres?|centers?|centre\\s*lines?|center\\s*lines?|holes?|drill\\s*points?|joints?|lap\\s*joints?|mitres?|miters?|mortises?|mortices?|tenons?|rebates?|rabbets?|housings?|dados?|shoulders?|waste\\s*sides?|parts?|pieces?|peices?|components?|rails?|legs?|frames?|bodies?|body|panels?|tops?|bases?|sides?|ends?))\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_cut_shape",
+          "text": "Cut/shape: What had to be cut, what had to be shaped, what tools did you use?",
+          "image": "rs_cut_shape.jpg",
+          "hint": "Include the parts you cut/shape and the tools (saws, chisels, planes, files, sanders).",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*\\b(?:cut|cuts|cutting|saw|sawed|sawn|sawing|trim|trimmed|trimming|shape|shaped|shaping)\\b)(?=[\\s\\S]*\\b(?:(?:timber|wood|mdf|ply|plywood|metal|steel|aluminium|aluminum|plastic|acrylic|boards?|panels?|parts?|pieces?|peices?|components?|rails?|legs?|frames?|bodies?|body|tops?|bases?|sides?|ends?|curves?|corners?|edges?|joints?|lap\\s*joints?|mitre\\s*joints?|miter\\s*joints?|mortises?|mortices?|tenons?|rebates?|rabbets?|housings?|dados?|slots?|grooves?|holes?))\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?))\\b){1}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:(?:[\\s\\S]*?\\b(?:(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?))\\b){2}|\\b(?:(?:clean(?:ed|s|ing)?\\s*(?:it|them|the\\s+\\w+)?\\s*up|remove(?:d|s|ing)?\\s+(?:the\\s+)?(?:waste|roughness|material|saw\\s*marks?)|trim(?:med|s|ming)?|pare(?:d|s|ing)?|chisel(?:led|ed|s|ing)?|shape(?:d|s|ing)?|smooth(?:ed|s|ing)?|round(?:ed|s|ing)?|file(?:d|s|ing)?|rasp(?:ed|s|ing)?|plane(?:d|s|ing)?|sand(?:ed|s|ing)?|finish(?:ed|es|ing)?|refine(?:d|s|ing)?|no\\s+shaping\\s+(?:was\\s+)?(?:needed|required)|nothing\\s+(?:needed|had)\\s+(?:to\\s+be\\s+)?shap(?:ed|ing)))\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:(?:[\\s\\S]*?\\b(?:(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?))\\b){3}|\\b(?:(?:clean(?:ed|s|ing)?\\s*(?:it|them|the\\s+\\w+)?\\s*up|remove(?:d|s|ing)?\\s+(?:the\\s+)?(?:waste|roughness|material|saw\\s*marks?)|trim(?:med|s|ming)?|pare(?:d|s|ing)?|chisel(?:led|ed|s|ing)?|shape(?:d|s|ing)?|smooth(?:ed|s|ing)?|round(?:ed|s|ing)?|file(?:d|s|ing)?|rasp(?:ed|s|ing)?|plane(?:d|s|ing)?|sand(?:ed|s|ing)?|finish(?:ed|es|ing)?|refine(?:d|s|ing)?|no\\s+shaping\\s+(?:was\\s+)?(?:needed|required)|nothing\\s+(?:needed|had)\\s+(?:to\\s+be\\s+)?shap(?:ed|ing)))\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_joints_jointing",
+          "text": "Joints/jointing: What joints were used in your project? What tools and materials did you need?",
+          "image": "rs_joints_jointing.jpg",
+          "hint": "Name the joints, and mention tools/materials such as saws, chisels, glue, clamps, drill, pilot holes, screws, nails, dowels, or other fixings.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:(?:butt|rebate|rabbet|housing|dado|halving|half[-\\s]*lap|lap|mitre|miter|mortise|mortice|tenon|mortise\\s*and\\s*tenon|mortice\\s*and\\s*tenon|dowel|dovetail|box\\s*joint|finger\\s*joint|biscuit|domino|bridle|scarf|tongue\\s*and\\s*groove|pocket[-\\s]*hole|spline|corner\\s*block|nailed\\s*joint|screwed\\s*joint|bolted\\s*joint))s?\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?)|(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?)|drill\\s*bits?|pilot\\s*bits?|countersink(?:s|ing)?|clamps?|cramps?|g[-\\s]*clamps?|f[-\\s]*clamps?|sash\\s*clamps?|bar\\s*clamps?|quick[-\\s]*grip(?:s)?|vice|vices|vise|vises|glue|adhesive|pva|epoxy|wood\\s*glue|contact\\s*adhesive|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|staple(?:s)?|rivet(?:s)?|fastener(?:s)?|fixing(?:s)?|hammer(?:s)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?))\\b){1}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?)|(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?)|drill\\s*bits?|pilot\\s*bits?|countersink(?:s|ing)?|clamps?|cramps?|g[-\\s]*clamps?|f[-\\s]*clamps?|sash\\s*clamps?|bar\\s*clamps?|quick[-\\s]*grip(?:s)?|vice|vices|vise|vises|glue|adhesive|pva|epoxy|wood\\s*glue|contact\\s*adhesive|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|staple(?:s)?|rivet(?:s)?|fastener(?:s)?|fixing(?:s)?|hammer(?:s)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?))\\b){2}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?)|(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?)|drill\\s*bits?|pilot\\s*bits?|countersink(?:s|ing)?|clamps?|cramps?|g[-\\s]*clamps?|f[-\\s]*clamps?|sash\\s*clamps?|bar\\s*clamps?|quick[-\\s]*grip(?:s)?|vice|vices|vise|vises|glue|adhesive|pva|epoxy|wood\\s*glue|contact\\s*adhesive|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|staple(?:s)?|rivet(?:s)?|fastener(?:s)?|fixing(?:s)?|hammer(?:s)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?))\\b){3}",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_assemble",
+          "text": "Assemble: What assembling was required? How did you do it?",
+          "image": "rs_assemble.jpg",
+          "hint": "Explain the order: dry fit, glue, clamp, fixings, check square, clean-up.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:assemble(?:d|s|ing)?|assembly|put(?:s|ting)?\\s+together|join(?:ed|s|ing)?|build|built|building|construct(?:ed|s|ing)?|fit(?:ted|s|ting)?|fix(?:ed|es|ing)?|attach(?:ed|es|ing)?|secure(?:d|s|ing)?|nail(?:ed|s|ing)?|screw(?:ed|s|ing)?|bolt(?:ed|s|ing)?|glue(?:d|s|ing)?)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:glue(?:d|s|ing)?|adhesive|pva|epoxy|clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|screw(?:ed|s|ing)?|nail(?:ed|s|ing)?|bolt(?:ed|s|ing)?|staple(?:d|s|ing)?|rivet(?:ed|s|ing)?|dowel(?:led|ed|s|ing)?|domino(?:es|s)?|biscuit(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|hammer(?:ed|s|ing)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|drill(?:ed|s|ing)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?|mallet(?:s)?|vice|vices|vise|vises))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:(?:[\\s\\S]*?\\b(?:(?:glue(?:d|s|ing)?|adhesive|pva|epoxy|clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|screw(?:ed|s|ing)?|nail(?:ed|s|ing)?|bolt(?:ed|s|ing)?|staple(?:d|s|ing)?|rivet(?:ed|s|ing)?|dowel(?:led|ed|s|ing)?|domino(?:es|s)?|biscuit(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|hammer(?:ed|s|ing)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|drill(?:ed|s|ing)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?|mallet(?:s)?|vice|vices|vise|vises))\\b){2}|\\b(?:(?:align(?:ed|s|ing|ment)?|line(?:d)?\\s*up|in\\s*line|straight|square|squareness|level|plumb|flush|even|centred|centered|check(?:ed|s|ing)?|measure(?:d|s|ing)?\\s*diagonals?|dry\\s*fit(?:ted|s|ting)?|test\\s*fit(?:ted|s|ting)?|hold|held|holding|support(?:ed|s|ing)?|clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|jig(?:s)?|template(?:s)?|wipe(?:d|s|ing)?\\s*off|remove(?:d|s|ing)?\\s+excess\\s+glue|clean(?:ed|s|ing)?\\s*up|allow(?:ed|s|ing)?\\s+to\\s+dry|leave|left|leaving\\s+to\\s+dry))\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_finishes",
+          "text": "Finishes: What finishes/finishing were in this project? How did you do them?",
+          "image": "rs_finishes.jpg",
+          "hint": "Include surface prep, finish type, number of coats, and application method.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:finish(?:ed|es|ing)?|apply|applied|applies|applying|coat(?:ed|s|ing)?|paint(?:ed|s|ing)?|varnish(?:ed|es|ing)?|stain(?:ed|s|ing)?|oil(?:ed|s|ing)?|wax(?:ed|es|ing)?|lacquer(?:ed|s|ing)?|seal(?:ed|s|ing)?)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:varnish(?:ed|es|ing)?|polyurethane|clear\\s*(?:satin\\s+|gloss\\s+|matt\\s+|matte\\s+)?coat|clear\\s*finish|lacquer(?:ed|s|ing)?|shellac|paint(?:ed|s|ing)?|fence\\s*paint|exterior\\s*paint|interior\\s*paint|spray\\s*paint|enamel|primer|undercoat|stain(?:ed|s|ing)?|dye(?:d|s|ing)?|oil(?:ed|s|ing)?|linseed\\s*oil|danish\\s*oil|tung\\s*oil|wax(?:ed|es|ing)?|french\\s*polish|sealer|waterproofing|preservative))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:paint\\s*brush(?:es)?|paintbrush(?:es)?|brush(?:es)?|roller(?:s)?|spray\\s*gun(?:s)?|sprayer(?:s)?|aerosol(?:s)?|spray(?:ed|s|ing)?|rag(?:s)?|cloth(?:s)?|sponge(?:s)?|foam\\s*brush(?:es)?|pad(?:s)?|wipe(?:d|s|ing)?\\s*on))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:(?:sand(?:ed|s|ing)?|prep(?:ped|s|ping)?|prepare(?:d|s|ing)?|clean(?:ed|s|ing)?|dust(?:ed|s|ing)?|remove(?:d|s|ing)?\\s+dust|primer|undercoat|seal(?:ed|s|ing)?|coat(?:ed|s|ing)?|one\\s+coat|two\\s+coats?|three\\s+coats?|\\d+\\s+coats?|dry|dried|dries|drying|cure(?:d|s|ing)?|between\\s+coats?|black|white|red|blue|green|yellow|orange|brown|grey|gray|silver|clear|natural|dark|light|gloss|glossy|satin|matt|matte|fence\\s*paint|exterior\\s*paint|interior\\s*paint|spray\\s*paint|water[-\\s]*based|oil[-\\s]*based))\\b|(?:\\busing\\b|\\bwith\\b|\\bby\\b)[\\s\\S]{0,50}\\b(?:(?:paint\\s*brush(?:es)?|paintbrush(?:es)?|brush(?:es)?|roller(?:s)?|spray\\s*gun(?:s)?|sprayer(?:s)?|aerosol(?:s)?|spray(?:ed|s|ing)?|rag(?:s)?|cloth(?:s)?|sponge(?:s)?|foam\\s*brush(?:es)?|pad(?:s)?|wipe(?:d|s|ing)?\\s*on))\\b)",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24356-recordsheet_Project 3",
+      "title": "Assessment Record Sheet – Workshop processes - Project 3",
+      "subtitle": "Record the workshop processes you used for your project",
+      "usNumber": "US 24356",
+      "usVersion": "(v3)",
+      "credits": 8,
+      "standardType": "internal",
+      "questions": [
+        {
+          "id": "rs_project_name",
+          "text": "Project: What is your project called?",
+          "image": "rs_project_name.png",
+          "hint": "Use the name your teacher uses (e.g., coffee table, toolbox, stool).",
+          "type": "short",
+          "maxPoints": 1,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\S+",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_materials_used",
+          "text": "Materials: What materials were used in this project? (Timber + at least 3 other materials.)",
+          "image": "rs_materials_used.png",
+          "hint": "List materials and products, such as timber, plywood/MDF, screws, nails, glue, varnish, polyurethane, paint, metal, plastic, or other materials used.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:(?:treated\\s+)?(?:h[1-6](?:\\.\\d)?\\s+)?(?:timber|wood|pine|radiata(?:\\s+pine)?|rimu|macrocarpa|cedar|oak|hardwood|softwood|decking|fence\\s*rails?|rails?|palings?|pailings?|posts?|boards?|planks?|battens?|dowels?|mouldings?))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:mdf|plywood|ply|particle\\s*board|chipboard|hardboard|customwood|laminate|veneer|melamine|sheet\\s*material|acm|metal|steel|stainless\\s*steel|aluminium|aluminum|brass|copper|zinc|galvanised|galvanized|plastic|acrylic|perspex|pvc|polycarbonate|rubber|foam|glass|fabric|leather|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|pin(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|hinge(?:s)?|bracket(?:s)?|fastener(?:s)?|fixing(?:s)?|hardware|staple(?:s)?|rivet(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|glue|adhesive|pva|epoxy|contact\\s*adhesive|wood\\s*glue|silicone|sealant|filler|putty|varnish|polyurethane|oil|paint|primer|undercoat|stain|dye|wax|clear\\s*coat|clear\\s*finish|finish|sealer|lacquer|shellac))\\b){1}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:mdf|plywood|ply|particle\\s*board|chipboard|hardboard|customwood|laminate|veneer|melamine|sheet\\s*material|acm|metal|steel|stainless\\s*steel|aluminium|aluminum|brass|copper|zinc|galvanised|galvanized|plastic|acrylic|perspex|pvc|polycarbonate|rubber|foam|glass|fabric|leather|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|pin(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|hinge(?:s)?|bracket(?:s)?|fastener(?:s)?|fixing(?:s)?|hardware|staple(?:s)?|rivet(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|glue|adhesive|pva|epoxy|contact\\s*adhesive|wood\\s*glue|silicone|sealant|filler|putty|varnish|polyurethane|oil|paint|primer|undercoat|stain|dye|wax|clear\\s*coat|clear\\s*finish|finish|sealer|lacquer|shellac))\\b){2}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:mdf|plywood|ply|particle\\s*board|chipboard|hardboard|customwood|laminate|veneer|melamine|sheet\\s*material|acm|metal|steel|stainless\\s*steel|aluminium|aluminum|brass|copper|zinc|galvanised|galvanized|plastic|acrylic|perspex|pvc|polycarbonate|rubber|foam|glass|fabric|leather|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|pin(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|hinge(?:s)?|bracket(?:s)?|fastener(?:s)?|fixing(?:s)?|hardware|staple(?:s)?|rivet(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|glue|adhesive|pva|epoxy|contact\\s*adhesive|wood\\s*glue|silicone|sealant|filler|putty|varnish|polyurethane|oil|paint|primer|undercoat|stain|dye|wax|clear\\s*coat|clear\\s*finish|finish|sealer|lacquer|shellac))\\b){3}",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_mark_out",
+          "text": "Mark out: What had to be marked out? What tools were used?",
+          "image": "rs_mark_out.jpg",
+          "hint": "Mention measurements and tools (rule/tape, try square, combination square, marking gauge, pencil/knife).",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?:\\b(?:mark(?:ed|s|ing)?\\s*out|set(?:ting)?\\s*out|measure(?:d|s|ment|ments|ing)?|layout|lay(?:ing)?\\s*out|laid\\s*out|scribe(?:d|s|ing)?|draw(?:n|s|ing)?|transfer(?:red|s|ring)?)\\b|\\b\\d+(?:\\.\\d+)?\\s*(?:mm|cm|m)\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:lengths?|widths?|heights?|thickness(?:es)?|sizes?|dimensions?|measurements?|positions?|locations?|cut(?:ting)?\\s*lines?|lines?|angles?|centres?|centers?|centre\\s*lines?|center\\s*lines?|holes?|drill\\s*points?|joints?|lap\\s*joints?|mitres?|miters?|mortises?|mortices?|tenons?|rebates?|rabbets?|housings?|dados?|shoulders?|waste\\s*sides?|parts?|pieces?|peices?|components?|rails?|legs?|frames?|bodies?|body|panels?|tops?|bases?|sides?|ends?))\\b",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_cut_shape",
+          "text": "Cut/shape: What had to be cut, what had to be shaped, what tools did you use?",
+          "image": "rs_cut_shape.jpg",
+          "hint": "Include the parts you cut/shape and the tools (saws, chisels, planes, files, sanders).",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "(?=[\\s\\S]*\\b(?:cut|cuts|cutting|saw|sawed|sawn|sawing|trim|trimmed|trimming|shape|shaped|shaping)\\b)(?=[\\s\\S]*\\b(?:(?:timber|wood|mdf|ply|plywood|metal|steel|aluminium|aluminum|plastic|acrylic|boards?|panels?|parts?|pieces?|peices?|components?|rails?|legs?|frames?|bodies?|body|tops?|bases?|sides?|ends?|curves?|corners?|edges?|joints?|lap\\s*joints?|mitre\\s*joints?|miter\\s*joints?|mortises?|mortices?|tenons?|rebates?|rabbets?|housings?|dados?|slots?|grooves?|holes?))\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?))\\b){1}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:(?:[\\s\\S]*?\\b(?:(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?))\\b){2}|\\b(?:(?:clean(?:ed|s|ing)?\\s*(?:it|them|the\\s+\\w+)?\\s*up|remove(?:d|s|ing)?\\s+(?:the\\s+)?(?:waste|roughness|material|saw\\s*marks?)|trim(?:med|s|ming)?|pare(?:d|s|ing)?|chisel(?:led|ed|s|ing)?|shape(?:d|s|ing)?|smooth(?:ed|s|ing)?|round(?:ed|s|ing)?|file(?:d|s|ing)?|rasp(?:ed|s|ing)?|plane(?:d|s|ing)?|sand(?:ed|s|ing)?|finish(?:ed|es|ing)?|refine(?:d|s|ing)?|no\\s+shaping\\s+(?:was\\s+)?(?:needed|required)|nothing\\s+(?:needed|had)\\s+(?:to\\s+be\\s+)?shap(?:ed|ing)))\\b)",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:(?:[\\s\\S]*?\\b(?:(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?))\\b){3}|\\b(?:(?:clean(?:ed|s|ing)?\\s*(?:it|them|the\\s+\\w+)?\\s*up|remove(?:d|s|ing)?\\s+(?:the\\s+)?(?:waste|roughness|material|saw\\s*marks?)|trim(?:med|s|ming)?|pare(?:d|s|ing)?|chisel(?:led|ed|s|ing)?|shape(?:d|s|ing)?|smooth(?:ed|s|ing)?|round(?:ed|s|ing)?|file(?:d|s|ing)?|rasp(?:ed|s|ing)?|plane(?:d|s|ing)?|sand(?:ed|s|ing)?|finish(?:ed|es|ing)?|refine(?:d|s|ing)?|no\\s+shaping\\s+(?:was\\s+)?(?:needed|required)|nothing\\s+(?:needed|had)\\s+(?:to\\s+be\\s+)?shap(?:ed|ing)))\\b)",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_joints_jointing",
+          "text": "Joints/jointing: What joints were used in your project? What tools and materials did you need?",
+          "image": "rs_joints_jointing.jpg",
+          "hint": "Name the joints, and mention tools/materials such as saws, chisels, glue, clamps, drill, pilot holes, screws, nails, dowels, or other fixings.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:(?:butt|rebate|rabbet|housing|dado|halving|half[-\\s]*lap|lap|mitre|miter|mortise|mortice|tenon|mortise\\s*and\\s*tenon|mortice\\s*and\\s*tenon|dowel|dovetail|box\\s*joint|finger\\s*joint|biscuit|domino|bridle|scarf|tongue\\s*and\\s*groove|pocket[-\\s]*hole|spline|corner\\s*block|nailed\\s*joint|screwed\\s*joint|bolted\\s*joint))s?\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?)|(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?)|drill\\s*bits?|pilot\\s*bits?|countersink(?:s|ing)?|clamps?|cramps?|g[-\\s]*clamps?|f[-\\s]*clamps?|sash\\s*clamps?|bar\\s*clamps?|quick[-\\s]*grip(?:s)?|vice|vices|vise|vises|glue|adhesive|pva|epoxy|wood\\s*glue|contact\\s*adhesive|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|staple(?:s)?|rivet(?:s)?|fastener(?:s)?|fixing(?:s)?|hammer(?:s)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?))\\b){1}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?)|(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?)|drill\\s*bits?|pilot\\s*bits?|countersink(?:s|ing)?|clamps?|cramps?|g[-\\s]*clamps?|f[-\\s]*clamps?|sash\\s*clamps?|bar\\s*clamps?|quick[-\\s]*grip(?:s)?|vice|vices|vise|vises|glue|adhesive|pva|epoxy|wood\\s*glue|contact\\s*adhesive|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|staple(?:s)?|rivet(?:s)?|fastener(?:s)?|fixing(?:s)?|hammer(?:s)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?))\\b){2}",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:[\\s\\S]*?\\b(?:(?:(?:steel\\s*rul(?:e|er)s?|rul(?:e|er)s?|tape(?:\\s*measure)?s?|try\\s*squares?|carpenter'?s\\s*squares?|framing\\s*squares?|speed\\s*squares?|combination\\s*squares?|set\\s*squares?|squares?|sliding\\s*bevels?|bevels?|protractors?|marking\\s*gauges?|mortise\\s*gauges?|mortice\\s*gauges?|pencils?|pens?|markers?|felt[-\\s]*tips?|sharpies?|chalk|scribers?|marking\\s*knives?|knives?|awls?|compasses?|dividers?|centre\\s*punches?|center\\s*punches?|templates?|jigs?)|(?:(?:panel|pannel)\\s*saws?|hand\\s*saws?|handsaws?|cross[-\\s]*cut\\s*saws?|tenon\\s*saws?|dovetail\\s*saws?|back\\s*saws?|coping\\s*saws?|hack\\s*saws?|hacksaws?|band\\s*saws?|bandsaws?|scroll\\s*saws?|jig\\s*saws?|jigsaws?|circular\\s*saws?|table\\s*saws?|mitre\\s*saws?|miter\\s*saws?|drop\\s*saws?|track\\s*saws?|reciprocating\\s*saws?|sabre\\s*saws?|routers?|router\\s*tables?|chisels?|planes?|jack\\s*planes?|smoothing\\s*planes?|block\\s*planes?|spokeshaves?|spoke\\s*shaves?|rasps?|files?|surforms?|snips?|shears?|guillotines?|grinders?|angle\\s*grinders?|linishers?|belt\\s*sanders?|disc\\s*sanders?|orbital\\s*sanders?|random\\s*orbital\\s*sanders?|palm\\s*sanders?|sanding\\s*blocks?|sandpaper|abrasive\\s*paper|emery\\s*paper|drills?|drill\\s*press(?:es)?|hole\\s*saws?|forstner\\s*bits?|spade\\s*bits?|auger\\s*bits?|mallets?|hammers?)|drill\\s*bits?|pilot\\s*bits?|countersink(?:s|ing)?|clamps?|cramps?|g[-\\s]*clamps?|f[-\\s]*clamps?|sash\\s*clamps?|bar\\s*clamps?|quick[-\\s]*grip(?:s)?|vice|vices|vise|vises|glue|adhesive|pva|epoxy|wood\\s*glue|contact\\s*adhesive|screw(?:s)?|nail(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|bolt(?:s)?|nut(?:s)?|washer(?:s)?|dowel(?:s)?|domino(?:es|s)?|biscuit(?:s)?|staple(?:s)?|rivet(?:s)?|fastener(?:s)?|fixing(?:s)?|hammer(?:s)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?))\\b){3}",
+              "flags": "i"
+            }
+          ]
+        },
+        {
+          "id": "rs_finishes",
+          "text": "Finishes: What finishes/finishing were in this project? How did you do them?",
+          "image": "rs_finishes.jpg",
+          "hint": "Include surface prep, finish type, number of coats, and application method.",
+          "type": "long",
+          "maxPoints": 4,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:finish(?:ed|es|ing)?|apply|applied|applies|applying|coat(?:ed|s|ing)?|paint(?:ed|s|ing)?|varnish(?:ed|es|ing)?|stain(?:ed|s|ing)?|oil(?:ed|s|ing)?|wax(?:ed|es|ing)?|lacquer(?:ed|s|ing)?|seal(?:ed|s|ing)?)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:varnish(?:ed|es|ing)?|polyurethane|clear\\s*(?:satin\\s+|gloss\\s+|matt\\s+|matte\\s+)?coat|clear\\s*finish|lacquer(?:ed|s|ing)?|shellac|paint(?:ed|s|ing)?|fence\\s*paint|exterior\\s*paint|interior\\s*paint|spray\\s*paint|enamel|primer|undercoat|stain(?:ed|s|ing)?|dye(?:d|s|ing)?|oil(?:ed|s|ing)?|linseed\\s*oil|danish\\s*oil|tung\\s*oil|wax(?:ed|es|ing)?|french\\s*polish|sealer|waterproofing|preservative))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:paint\\s*brush(?:es)?|paintbrush(?:es)?|brush(?:es)?|roller(?:s)?|spray\\s*gun(?:s)?|sprayer(?:s)?|aerosol(?:s)?|spray(?:ed|s|ing)?|rag(?:s)?|cloth(?:s)?|sponge(?:s)?|foam\\s*brush(?:es)?|pad(?:s)?|wipe(?:d|s|ing)?\\s*on))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:\\b(?:(?:sand(?:ed|s|ing)?|prep(?:ped|s|ping)?|prepare(?:d|s|ing)?|clean(?:ed|s|ing)?|dust(?:ed|s|ing)?|remove(?:d|s|ing)?\\s+dust|primer|undercoat|seal(?:ed|s|ing)?|coat(?:ed|s|ing)?|one\\s+coat|two\\s+coats?|three\\s+coats?|\\d+\\s+coats?|dry|dried|dries|drying|cure(?:d|s|ing)?|between\\s+coats?|black|white|red|blue|green|yellow|orange|brown|grey|gray|silver|clear|natural|dark|light|gloss|glossy|satin|matt|matte|fence\\s*paint|exterior\\s*paint|interior\\s*paint|spray\\s*paint|water[-\\s]*based|oil[-\\s]*based))\\b|(?:\\busing\\b|\\bwith\\b|\\bby\\b)[\\s\\S]{0,50}\\b(?:(?:paint\\s*brush(?:es)?|paintbrush(?:es)?|brush(?:es)?|roller(?:s)?|spray\\s*gun(?:s)?|sprayer(?:s)?|aerosol(?:s)?|spray(?:ed|s|ing)?|rag(?:s)?|cloth(?:s)?|sponge(?:s)?|foam\\s*brush(?:es)?|pad(?:s)?|wipe(?:d|s|ing)?\\s*on))\\b)",
+              "flags": "i"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
