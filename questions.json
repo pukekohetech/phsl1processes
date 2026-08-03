@@ -72,28 +72,28 @@
           "hint": "Explain: set the distance, lock it, keep the stock against the edge, run the spur along with steady pressure, then store it safely.",
           "type": "long",
           "maxPoints": 4,
-         "rubric": [
-  {
-    "points": 1,
-    "check": "(?=[\\s\\S]*\\b(?:try\\s*square|tri\\s*square|carpenter'?s\\s*square|combination\\s*square|square)\\b)(?=[\\s\\S]*\\b(?:hold|held|holding|push|pushed|press|pressed|keep|kept|place|placed|put)\\b[\\s\\S]{0,100}\\b(?:against|onto|on)\\b[\\s\\S]{0,60}\\b(?:edge|side|board|timber|wood|workpiece)\\b)",
-    "flags": "i"
-  },
-  {
-    "points": 1,
-    "check": "(?=[\\s\\S]*\\b(?:mark|marked|marking|draw|drew|drawn|drawing|scribe|scribed|scribing|pencil|pen)\\b)(?=[\\s\\S]*(?:\\b(?:90|ninety)\\s*(?:°|degrees?|degree)?\\b|\\b(?:right\\s*angle|square\\s*line|square)\\b))",
-    "flags": "i"
-  },
-  {
-    "points": 1,
-    "check": "(?=[\\s\\S]*\\b(?:saw|sawed|sawn|sawing|cut|cuts|cutting)\\b)(?=[\\s\\S]*\\b(?:waste|waist)\\s*side\\b|(?=[\\s\\S]*\\b(?:outside|beside)\\b[\\s\\S]{0,30}\\b(?:line|mark)\\b)|(?=[\\s\\S]*\\bleave|leaving|left\\b[\\s\\S]{0,30}\\b(?:line|mark)\\b))",
-    "flags": "i"
-  },
-  {
-    "points": 1,
-    "check": "(?:\\b(?:check|checked|checking|test|tested|testing|confirm|confirmed|make\\s*sure|made\\s*sure)\\b[\\s\\S]{0,100}(?:\\b(?:square|squareness|right\\s*angle)\\b|\\b90\\s*(?:°|degrees?)?\\b)|\\b(?:trim|trimmed|trimming|plane|planed|planing|chisel|chiselled|chiseled|clean|cleaned|cleaning)\\b[\\s\\S]{0,100}\\b(?:end|edge|cut|surface|square)\\b)",
-    "flags": "i"
-  }
-]
+       "rubric": [
+    {
+      "points": 1,
+      "check": "\\b(set|adjust|position)\\b.{0,60}\\b(distance|measurement|offset|mm|millimet(?:re|er)s?)\\b|\\b(stock|fence)\\b.{0,30}\\b(stem|beam|shaft)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(lock|tighten|secure|fix|clamp)\\b.{0,40}\\b(screw|thumb\\s*screw|knob|stock|gauge|it|setting)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(keep|hold|press|rest)\\b.{0,30}\\b(stock|fence)\\b.{0,30}\\b(against|on|along|flush\\s+against|firmly\\s+against)\\b.{0,20}\\b(reference\\s+edge|edge|side)\\b",
+      "flags": "i"
+    },
+    {
+      "points": 1,
+      "check": "\\b(run|scribe|draw|pull|push|slide|move)\\b.{0,40}\\b(spur|pin|cutter|point)\\b.{0,40}\\b(along|against|down)\\b.{0,20}\\b(edge|reference\\s+edge|timber|wood|workpiece)\\b",
+      "flags": "i"
+    }
+  ]
         },
         {
           "id": "q3a_saw_steel_bar",
