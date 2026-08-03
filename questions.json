@@ -42,28 +42,28 @@
           "hint": "Describe the steps: identify face side/edge, mark a 90° line, cut on the waste side, tidy the end, then check squareness.",
           "type": "long",
           "maxPoints": 4,
-          "rubric": [
-            {
-              "points": 1,
-              "check": "\\b(?:face\\s*(?:side|edge|mark)s?|reference\\s*(?:face|edge))\\b",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "(?:\\b(?:mark(?:ed|s|ing)?|scribe(?:d|s|ing)?|draw(?:n|s|ing)?)\\b[\\s\\S]{0,100}(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?)|(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?)[\\s\\S]{0,100}\\b(?:mark(?:ed|s|ing)?|scribe(?:d|s|ing)?|draw(?:n|s|ing)?)\\b)",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "(?:\\b(?:saw(?:ed|s|ing)?|cut(?:s|ting)?)\\b[\\s\\S]{0,100}\\b(?:waste\\s*side|outside(?:\\s+of)?\\s+the\\s+line|leave(?:s|ing)?\\s+the\\s+line)\\b|\\b(?:waste\\s*side|outside(?:\\s+of)?\\s+the\\s+line|leave(?:s|ing)?\\s+the\\s+line)\\b[\\s\\S]{0,100}\\b(?:saw(?:ed|s|ing)?|cut(?:s|ting)?)\\b)",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "(?:\\b(?:chisel(?:led|ed|s|ing)?|plane(?:d|s|ing)?|shooting\\s*board|clean(?:ed|s|ing)?\\s*up|trim(?:med|s|ming)?)\\b[\\s\\S]{0,100}(?:\\b(?:end|sawn\\s*end|cut\\s*surface)\\b|(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?))|\\b(?:end|sawn\\s*end|cut\\s*surface)\\b[\\s\\S]{0,100}\\b(?:chisel(?:led|ed|s|ing)?|plane(?:d|s|ing)?|shooting\\s*board|clean(?:ed|s|ing)?\\s*up|trim(?:med|s|ming)?)\\b|\\b(?:check(?:ed|s|ing)?|test(?:ed|s|ing)?|confirm(?:ed|s|ing)?|make\\s*sure|made\\s*sure)\\b[\\s\\S]{0,100}(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?)|(?:\\b(?:right\\s*angles?|square(?:ness)?|try\\s*square|carpenter'?s\\s*square)\\b|\\b90\\s*(?:°|degrees?)?)[\\s\\S]{0,100}\\b(?:check(?:ed|s|ing)?|test(?:ed|s|ing)?|confirm(?:ed|s|ing)?|make\\s*sure|made\\s*sure)\\b)",
-              "flags": "i"
-            }
-          ]
+         "rubric": [
+  {
+    "points": 1,
+    "check": "(?=[\\s\\S]*\\b(?:try\\s*square|tri\\s*square|carpenter'?s\\s*square|combination\\s*square|square)\\b)(?=[\\s\\S]*\\b(?:hold|held|holding|push|pushed|press|pressed|keep|kept|place|placed|put)\\b[\\s\\S]{0,100}\\b(?:against|onto|on)\\b[\\s\\S]{0,60}\\b(?:edge|side|board|timber|wood|workpiece)\\b)",
+    "flags": "i"
+  },
+  {
+    "points": 1,
+    "check": "(?=[\\s\\S]*\\b(?:mark|marked|marking|draw|drew|drawn|drawing|scribe|scribed|scribing|pencil|pen)\\b)(?=[\\s\\S]*(?:\\b(?:90|ninety)\\s*(?:°|degrees?|degree)?\\b|\\b(?:right\\s*angle|square\\s*line|square)\\b))",
+    "flags": "i"
+  },
+  {
+    "points": 1,
+    "check": "(?=[\\s\\S]*\\b(?:saw|sawed|sawn|sawing|cut|cuts|cutting)\\b)(?=[\\s\\S]*\\b(?:waste|waist)\\s*side\\b|(?=[\\s\\S]*\\b(?:outside|beside)\\b[\\s\\S]{0,30}\\b(?:line|mark)\\b)|(?=[\\s\\S]*\\bleave|leaving|left\\b[\\s\\S]{0,30}\\b(?:line|mark)\\b))",
+    "flags": "i"
+  },
+  {
+    "points": 1,
+    "check": "(?:\\b(?:check|checked|checking|test|tested|testing|confirm|confirmed|make\\s*sure|made\\s*sure)\\b[\\s\\S]{0,100}(?:\\b(?:square|squareness|right\\s*angle)\\b|\\b90\\s*(?:°|degrees?)?\\b)|\\b(?:trim|trimmed|trimming|plane|planed|planing|chisel|chiselled|chiseled|clean|cleaned|cleaning)\\b[\\s\\S]{0,100}\\b(?:end|edge|cut|surface|square)\\b)",
+    "flags": "i"
+  }
+]
         },
         {
           "id": "q2_marking_gauge_parallel_line",
