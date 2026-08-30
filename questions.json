@@ -822,6 +822,7 @@
     {
       "id": "24356-recordsheet_Project 3",
       "title": "Assessment Record Sheet – Workshop processes - Project 3",
+       "attachSignoff": true,
       "subtitle": "Record the workshop processes you used for your project",
       "usNumber": "US 24356",
       "usVersion": "(v3)",
