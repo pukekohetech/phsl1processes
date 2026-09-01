@@ -88,11 +88,11 @@
       "check": "\\b(keep|hold|press|rest)\\b.{0,30}\\b(stock|fence)\\b.{0,30}\\b(against|on|along|flush\\s+against|firmly\\s+against)\\b.{0,20}\\b(reference\\s+edge|edge|side)\\b",
       "flags": "i"
     },
-    {
-      "points": 1,
-      "check": "\\b(run|scribe|draw|pull|push|slide|move)\\b.{0,40}\\b(spur|pin|cutter|point)\\b.{0,40}\\b(along|against|down)\\b.{0,20}\\b(edge|reference\\s+edge|timber|wood|workpiece)\\b",
-      "flags": "i"
-    }
+   {
+  "points": 1,
+  "check": "\\b(run|scribe|draw|pull|push|slide|move)\\b[\\s\\S]{0,40}\\b(spur|pin|cutter|point)\\b[\\s\\S]{0,40}\\b(along|against|down)\\b[\\s\\S]{0,160}\\b(edge|reference\\s+edge|timber|wood|workpiece)\\b",
+  "flags": "i"
+}
   ]
         },
         {
@@ -178,11 +178,11 @@
               "check": "\\b(?:clean(?:ed|s|ing)?|wipe(?:d|s|ing)?|dry|dried|drying|keep\\s+dry|oil(?:ed|s|ing)?|light\\s*oil|prevent(?:ed|s|ing)?\\s+rust|rust\\s+prevention)\\b",
               "flags": "i"
             },
-            {
-              "points": 1,
-              "check": "(?:\\b(?:cover(?:ed|s|ing)?|sheath(?:ed|s|ing)?|cap(?:ped|s|ping)?|retract(?:ed|s|ing)?|wind|wound|back\\s*off)\\b[\\s\\S]{0,60}\\b(?:blade|iron|cutting\\s*edge)\\b|\\b(?:blade|iron|cutting\\s*edge)\\b[\\s\\S]{0,60}\\b(?:cover(?:ed|s|ing)?|guard(?:ed|s|ing)?|retract(?:ed|s|ing)?|wound\\s+back)\\b|\\bblade\\s*guard\\b)",
-              "flags": "i"
-            },
+           {
+  "points": 1,
+  "check": "(?:\\b(?:cover(?:ed|s|ing)?|sheath(?:ed|s|ing)?|cap(?:ped|s|ping)?|retract(?:ed|s|ing)?|wind|wound|back\\s*off|protect(?:ed|s|ing)?)\\b[\\s\\S]{0,80}\\b(?:blade|blades|iron|edge|cutting\\s*edge)\\b|\\b(?:blade|blades|iron|edge|cutting\\s*edge)\\b[\\s\\S]{0,80}\\b(?:cover(?:ed|s|ing)?|guard(?:ed|s|ing)?|retract(?:ed|s|ing)?|wound\\s+back|protect(?:ed|s|ing)?)\\b|\\bblade\\s*guard\\b)",
+  "flags": "i"
+},
             {
               "points": 1,
               "check": "(?:\\b(?:store(?:d|s|ing)?|put|puts|putting|place(?:d|s|ing)?|keep|kept|keeping|lay|laid|rest(?:ed|s|ing)?)\\b[\\s\\S]{0,100}\\b(?:safe(?:ly)?|rack|drawer|toolbox|cabinet|on\\s+its\\s+side|on\\s+the\\s+side|sole\\s+up|blade\\s+clear|hard\\s+(?:objects|surfaces)|away\\s+from\\s+hard\\s+(?:objects|surfaces))\\b|\\b(?:do\\s+not|don't|never|not)\\s+(?:knock|bang|drop|leave)\\b)",
