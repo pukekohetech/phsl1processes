@@ -415,7 +415,7 @@
             },
             {
               "points": 1,
-              "check": "\\b(?:brush(?:ed|es|ing)?|roll(?:ed|s|ing)?|spray(?:ed|s|ing)?|rag|cloth|wipe(?:d|s|ing)?\\s*on|appl(?:y|ied|ies|ying)\\s+with)\\b",
+              "check": "\\b(?:paint\s*brush(?:es)?|paintbrush(?:es)?|brush(?:ed|es|ing)?|roll(?:ed|s|ing)?|spray(?:ed|s|ing)?|rag|cloth|wipe(?:d|s|ing)?\s*on|appl(?:y|ied|ies|ying)\s+with)\\b",
               "flags": "i"
             },
             {
