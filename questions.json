@@ -120,7 +120,7 @@
           "rubric": [
             {
               "points": 1,
-              "check": "\\b(?:panel\\s*saw|hand\\s*saw|handsaw)\\b",
+              "check": "\\b(?:panel\\s*saw|pannel\\s*saw)\\b",
               "flags": "i"
             }
           ]
