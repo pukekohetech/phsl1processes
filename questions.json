@@ -959,6 +959,31 @@
             }
           ]
         },
+                {
+          "id": "rs_assemble",
+          "text": "Assemble: What assembling was required? How did you do it?",
+          "image": "rs_assemble.jpg",
+          "hint": "Explain the order: dry fit, glue, clamp, fixings, check square, clean-up.",
+          "type": "long",
+          "maxPoints": 3,
+          "rubric": [
+            {
+              "points": 1,
+              "check": "\\b(?:assemble(?:d|s|ing)?|assembly|put(?:s|ting)?\\s+together|join(?:ed|s|ing)?|build|built|building|construct(?:ed|s|ing)?|fit(?:ted|s|ting)?|fix(?:ed|es|ing)?|attach(?:ed|es|ing)?|secure(?:d|s|ing)?|nail(?:ed|s|ing)?|screw(?:ed|s|ing)?|bolt(?:ed|s|ing)?|glue(?:d|s|ing)?)\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "\\b(?:(?:glue(?:d|s|ing)?|adhesive|pva|epoxy|clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|screw(?:ed|s|ing)?|nail(?:ed|s|ing)?|bolt(?:ed|s|ing)?|staple(?:d|s|ing)?|rivet(?:ed|s|ing)?|dowel(?:led|ed|s|ing)?|domino(?:es|s)?|biscuit(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|hammer(?:ed|s|ing)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|drill(?:ed|s|ing)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?|mallet(?:s)?|vice|vices|vise|vises))\\b",
+              "flags": "i"
+            },
+            {
+              "points": 1,
+              "check": "(?:(?:[\\s\\S]*?\\b(?:(?:glue(?:d|s|ing)?|adhesive|pva|epoxy|clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|screw(?:ed|s|ing)?|nail(?:ed|s|ing)?|bolt(?:ed|s|ing)?|staple(?:d|s|ing)?|rivet(?:ed|s|ing)?|dowel(?:led|ed|s|ing)?|domino(?:es|s)?|biscuit(?:s)?|jolt\\s*head(?:s)?|bugle(?:s)?|bugle\\s*screw(?:s)?|hammer(?:ed|s|ing)?|nail\\s*gun(?:s)?|screwdriver(?:s)?|impact\\s*driver(?:s)?|drill\\s*driver(?:s)?|drill(?:ed|s|ing)?|domino\\s*machine(?:s)?|biscuit\\s*joiner(?:s)?|pocket[-\\s]*hole\\s*jig(?:s)?|mallet(?:s)?|vice|vices|vise|vises))\\b){2}|\\b(?:(?:align(?:ed|s|ing|ment)?|line(?:d)?\\s*up|in\\s*line|straight|square|squareness|level|plumb|flush|even|centred|centered|check(?:ed|s|ing)?|measure(?:d|s|ing)?\\s*diagonals?|dry\\s*fit(?:ted|s|ting)?|test\\s*fit(?:ted|s|ting)?|hold|held|holding|support(?:ed|s|ing)?|clamp(?:ed|s|ing)?|cramp(?:ed|s|ing)?|jig(?:s)?|template(?:s)?|wipe(?:d|s|ing)?\\s*off|remove(?:d|s|ing)?\\s+excess\\s+glue|clean(?:ed|s|ing)?\\s*up|allow(?:ed|s|ing)?\\s+to\\s+dry|leave|left|leaving\\s+to\\s+dry))\\b)",
+              "flags": "i"
+            }
+          ]
+        },
         {
           "id": "rs_finishes",
           "text": "Finishes: What finishes/finishing were in this project? How did you do them?",
