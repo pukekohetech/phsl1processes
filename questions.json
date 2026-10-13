@@ -88,9 +88,9 @@
       "check": "\\b(keep|hold|press|rest)\\b.{0,30}\\b(stock|fence)\\b.{0,30}\\b(against|on|along|flush\\s+against|firmly\\s+against)\\b.{0,20}\\b(reference\\s+edge|edge|side)\\b",
       "flags": "i"
     },
-   {
+ {
   "points": 1,
-  "check": "\\b(run|scribe|draw|pull|push|slide|move)\\b[\\s\\S]{0,40}\\b(spur|pin|cutter|point)\\b[\\s\\S]{0,40}\\b(along|against|down)\\b[\\s\\S]{0,160}\\b(edge|reference\\s+edge|timber|wood|workpiece)\\b",
+  "check": "\\b(run|scribe|draw|pull|push|slide|move)\\b[\\s\\S]{0,40}\\b(spur|pin|cutter|point)\\b[\\s\\S]{0,40}\\b(along|against|down)\\b[\\s\\S]{0,160}\\b(edge|reference\\s+edge|timber|wood|workpiece|material|board|surface)\\b",
   "flags": "i"
 }
   ]
