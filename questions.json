@@ -149,23 +149,25 @@
           "hint": "Cover 2–3 uses: smoothing/finishing surfaces, straightening, and bringing timber down to size.",
           "type": "long",
           "maxPoints": 3,
-          "rubric": [
-            {
-              "points": 1,
-              "check": "(?=[\\s\\S]*\\b(?:smooth(?:ed|s|ing)?|finish(?:ed|es|ing)?|remove(?:d|s|ing)?\\s+(?:the\\s+)?rough(?:ness)?|fine\\s+shavings?|clean(?:ed|s|ing)?\\s+up|final\\s+finish)\\b)(?=[\\s\\S]*\\b(?:surface|surfaces|timber|wood|face|faces|board|boards)\\b)",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "(?=[\\s\\S]*\\b(?:straighten(?:ed|s|ing)?|true|trued|truing|flatten(?:ed|s|ing)?|level(?:led|ed|s|ling|ing)?|joint(?:ed|s|ing)?)\\b)(?=[\\s\\S]*\\b(?:edge|edges|face|faces|surface|surfaces|timber|wood|board|boards)\\b)",
-              "flags": "i"
-            },
-            {
-              "points": 1,
-              "check": "(?=[\\s\\S]*\\b(?:reduce(?:d|s|ing)?|bring|brings|bringing|brought|plane(?:d|s|ing)?|trim(?:med|s|ming)?|remove(?:d|s|ing)?)\\b)(?=[\\s\\S]*\\b(?:size|final\\s*size|correct\\s*size|dimension|dimensions|thickness|width|height)\\b)",
-              "flags": "i"
-            }
-          ]
+        
+"rubric": [
+  {
+    "points": 1,
+    "check": "(?=[\\s\\S]*\\b(?:smooth(?:ed|s|ing)?|even(?:ed|ing)?\\s+out)\\b)(?=[\\s\\S]*\\b(?:wood|timber|surface(?:s)?|board(?:s)?|face(?:s)?)\\b)",
+    "flags": "i"
+  },
+  {
+    "points": 1,
+    "check": "(?=[\\s\\S]*\\b(?:remov(?:e|es|ed|ing)|eliminat(?:e|es|ed|ing)|reduc(?:e|es|ed|ing)|clean(?:s|ed|ing)?\\s+up)\\b)(?=[\\s\\S]*\\b(?:tool\\s*marks?|plane\\s*marks?|saw\\s*marks?|roughness|rough\\s*spots?|irregularit(?:y|ies)|imperfections?|high\\s*spots?|unevenness)\\b)",
+    "flags": "i"
+  },
+  {
+    "points": 1,
+    "check": "(?:\\b(?:prepar(?:e|es|ed|ing)|ready|smooth|smoothing)\\b[\\s\\S]{0,80}\\b(?:for\\s+(?:a\\s+)?(?:final\\s+)?finish(?:ing)?|for\\s+(?:painting|staining|varnishing)|before\\s+(?:painting|staining|varnishing|finishing))\\b|\\b(?:final|fine|clean)\\s+finish\\b)",
+    "flags": "i"
+  }
+]
+
         },
         {
           "id": "q5_protect_plane_blade",
