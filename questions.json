@@ -149,24 +149,25 @@
           "hint": "Cover 2–3 uses: smoothing/finishing surfaces, straightening, and bringing timber down to size.",
           "type": "long",
           "maxPoints": 3,
-        
+
 "rubric": [
   {
     "points": 1,
-    "check": "(?=[\\s\\S]*\\b(?:smooth(?:ed|s|ing)?|even(?:ed|ing)?\\s+out)\\b)(?=[\\s\\S]*\\b(?:wood|timber|surface(?:s)?|board(?:s)?|face(?:s)?)\\b)",
+    "check": "\\b(?:smooth(?:s|ed|ing)?|finish(?:es|ed|ing)?)\\b[\\s\\S]{0,90}\\b(?:wood|timber|board(?:s)?|surface(?:s)?|face(?:s)?|edge(?:s)?)\\b",
     "flags": "i"
   },
   {
     "points": 1,
-    "check": "(?=[\\s\\S]*\\b(?:remov(?:e|es|ed|ing)|eliminat(?:e|es|ed|ing)|reduc(?:e|es|ed|ing)|clean(?:s|ed|ing)?\\s+up)\\b)(?=[\\s\\S]*\\b(?:tool\\s*marks?|plane\\s*marks?|saw\\s*marks?|roughness|rough\\s*spots?|irregularit(?:y|ies)|imperfections?|high\\s*spots?|unevenness)\\b)",
+    "check": "\\b(?:remov(?:e|es|ed|ing)|straighten(?:s|ed|ing)?|tru(?:e|es|ed|ing)|flatten(?:s|ed|ing)?|level(?:s|led|ling)?|eliminat(?:e|es|ed|ing)|correct(?:s|ed|ing)?)\\b[\\s\\S]{0,90}\\b(?:tool\\s*marks?|plane\\s*marks?|saw\\s*marks?|imperfections?|irregularit(?:y|ies)|roughness|rough\\s*spots?|unevenness|edges?|faces?|surfaces?|high\\s*spots?)\\b",
     "flags": "i"
   },
   {
     "points": 1,
-    "check": "(?:\\b(?:prepar(?:e|es|ed|ing)|ready|smooth|smoothing)\\b[\\s\\S]{0,80}\\b(?:for\\s+(?:a\\s+)?(?:final\\s+)?finish(?:ing)?|for\\s+(?:painting|staining|varnishing)|before\\s+(?:painting|staining|varnishing|finishing))\\b|\\b(?:final|fine|clean)\\s+finish\\b)",
+    "check": "(?:\\b(?:prepar(?:e|es|ed|ing)|ready)\\b[\\s\\S]{0,90}\\b(?:finish(?:ing)?|paint(?:ing)?|stain(?:ing)?|varnish(?:ing)?|coat(?:ing)?)\\b|\\b(?:final\\s+(?:size|thickness|dimensions?)|thickness|dimensions?|fine\\s+finish|final\\s+finish)\\b|\\b(?:plane|planed|planing|reduce|reducing|trim|trimming)\\b[\\s\\S]{0,80}\\b(?:size|thickness|dimensions?)\\b)",
     "flags": "i"
   }
 ]
+
 
         },
         {
