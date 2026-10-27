@@ -88,11 +88,13 @@
       "check": "\\b(keep|hold|press|rest)\\b.{0,30}\\b(stock|fence)\\b.{0,30}\\b(against|on|along|flush\\s+against|firmly\\s+against)\\b.{0,20}\\b(reference\\s+edge|edge|side)\\b",
       "flags": "i"
     },
- {
+ 
+{
   "points": 1,
-  "check": "\\b(run|scribe|draw|pull|push|slide|move)\\b[\\s\\S]{0,40}\\b(spur|pin|cutter|point)\\b[\\s\\S]{0,40}\\b(along|against|down)\\b[\\s\\S]{0,160}\\b(edge|reference\\s+edge|timber|wood|workpiece|material|board|surface)\\b",
+  "check": "(?=[\\s\\S]*\\b(?:run|running|slide|sliding|move|moving|pull|pulling|push|pushing|draw|drawing|scribe|scribing)\\b)(?=[\\s\\S]*\\b(?:spur|pin|cutter|point)\\b)(?=[\\s\\S]*(?:\\b(?:along|against|down)\\b[\\s\\S]{0,100}\\b(?:edge|timber|wood|workpiece|material|board|surface)\\b|\\b(?:scribe|scribes|scribed|scribing|mark|marks|marked|marking)\\b[\\s\\S]{0,100}\\b(?:line|parallel)\\b))",
   "flags": "i"
 }
+
   ]
         },
         {
